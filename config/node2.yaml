@@ -1,0 +1,15 @@
+network:
+  listen: "127.0.0.1:4243"
+  multipath: { enabled: false, max_paths: 1 }
+  dht:
+    bootstrap_nodes:
+      - "127.0.0.1:4242" # Pointe vers node1
+logging:
+  level: "info"
+
+api: 
+  enabled: true
+  listen: ":8004" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data_4243"

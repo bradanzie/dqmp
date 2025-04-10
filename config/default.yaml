@@ -1,0 +1,34 @@
+# config/default.yaml
+network:
+  listen: ":4242" # Port d'écoute par défaut
+  multipath:
+    enabled: false # Commençons simple
+    max_paths: 1
+  dht:
+    bootstrap_nodes: [] # Pas de bootstrap pour l'instant
+
+energy:
+  policy: "balanced" # Valeur par défaut, logique à implémenter plus tard
+  thresholds:
+    critical: 5 # en %
+    warning: 20 # en %
+
+logging:
+  level: "info" # Niveaux: debug, info, warn, error
+
+api: 
+  enabled: true
+  listen: ":8002" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data" # Répertoire de stockage des données, Sera modifié par le code si port détecté
+
+discovery:
+  # listen_addrs: # Utiliser les défauts pour l'instant (ports auto)
+  #   - "/ip4/0.0.0.0/tcp/0"
+  #   - "/ip4/0.0.0.0/udp/0/quic-v1"
+  # bootstrap_peers: # Utiliser les défauts publics de libp2p
+  #   - "/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59beuWjBeUFzxA43sKyPkTCaxUSYphgcPNMFGkUgu"
+  rendezvous: "dqmp-network-v1.0" # Important: doit être le même pour tous les nœuds DQMP
+  identity_path: "dqmp_identity.key" # Sera modifié par le code si port détecté
+  discovery_interval: "1m"

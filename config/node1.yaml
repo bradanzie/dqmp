@@ -1,0 +1,15 @@
+network:
+  listen: "127.0.0.1:4242" # Utiliser IP explicite pour éviter ambiguïté localhost
+  multipath: { enabled: false, max_paths: 1 }
+  dht:
+    bootstrap_nodes:
+      - "127.0.0.1:4243" # Pointe vers node2
+logging:
+  level: "info"
+
+api: 
+  enabled: true
+  listen: ":8003" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data_4242"
