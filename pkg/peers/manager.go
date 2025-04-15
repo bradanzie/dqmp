@@ -7,6 +7,7 @@ import (
 	"fmt"
 	"log"
 	"net"
+	"sort"
 	"sync"
 	"time"
 
@@ -35,7 +36,8 @@ type Peer struct {
 	State      PeerState       // État actuel de la connexion DQMP
 	LastSeen   time.Time       // Dernière fois qu'on a eu une interaction/découverte
 	LastError  error           // Dernière erreur de connexion (optionnel)
-	// TODO: Ajouter Score Énergétique, Latence, etc.
+	EcoScore   float32         // AJOUT : Dernier EcoScore connu (0.0 - 1.0), 0.5 par défaut?
+	// TODO: Ajouter Timestamp de l'EcoScore ?
 }
 
 // Manager gère l'ensemble des pairs connus et actifs.
@@ -75,6 +77,7 @@ func (m *Manager) AddOrUpdateDiscoveredPeer(info peer.AddrInfo) *Peer {
 			Multiaddrs: info.Addrs,
 			State:      StateDiscovered,
 			LastSeen:   now,
+			EcoScore:   0.5, // Score neutre/inconnu par défaut
 		}
 		m.peers[info.ID] = peer
 		log.Printf("PEERS: Nouveau pair découvert (via Discovery): %s\n", info.ID.ShortString())
@@ -88,10 +91,68 @@ func (m *Manager) AddOrUpdateDiscoveredPeer(info peer.AddrInfo) *Peer {
 			peer.State = StateDiscovered // Peut être redécouvert
 			peer.LastError = nil
 		}
+
+		// Ne pas écraser un EcoScore valide reçu via gossip si on redécouvre via DHT/mDNS
+		if peer.EcoScore == 0 { // Si jamais mis à jour ?
+			peer.EcoScore = 0.5
+		}
 		// log.Printf("PEERS: Pair découvert mis à jour: %s\n", info.ID.ShortString())
 	}
 
 	return peer
+}
+
+// UpdatePeerEcoScore met à jour l'EcoScore d'un pair connu.
+func (m *Manager) UpdatePeerEcoScore(id peer.ID, score float32) {
+	m.mu.Lock() // Utiliser Lock car on modifie
+	defer m.mu.Unlock()
+
+	if peer, exists := m.peers[id]; exists {
+		// TODO: Ajouter une validation du score (ex: 0.0 <= score <= 1.0) ?
+		if score < 0.0 {
+			score = 0.0
+		}
+		if score > 1.0 {
+			score = 1.0
+		}
+
+		if peer.EcoScore != score { // Mettre à jour seulement si différent ?
+			// log.Printf("PEERS: Mise à jour EcoScore pour %s: %.3f -> %.3f\n", id.ShortString(), peer.EcoScore, score)
+			peer.EcoScore = score
+			// Mettre à jour LastSeen aussi car on a reçu une info fraîche
+			peer.LastSeen = time.Now()
+		}
+	}
+	// Si le pair n'existe pas, on ignore (le gossip normal devrait le créer)
+}
+
+// GetPeersByEcoScore retourne une liste de pairs triée par EcoScore (décroissant).
+// Ne retourne que les pairs potentiellement utilisables pour la réplication (Connectés?).
+func (m *Manager) GetPeersByEcoScore() []*Peer {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+
+	candidates := make([]*Peer, 0, len(m.peers))
+	for _, peer := range m.peers {
+		// Quels états sont éligibles pour la réplication ?
+		// Seulement 'Connected' pour être sûr qu'on peut leur envoyer.
+		// Ou pourrait-on inclure 'Discovered'/'Connecting' avec une adresse DQMP connue ?
+		// Restons simple : seulement 'Connected'.
+		if peer != nil && peer.State == StateConnected && peer.Connection != nil {
+			// Vérifier si la connexion est encore valide ?
+			if peer.Connection.Context().Err() == nil {
+				candidates = append(candidates, peer)
+			}
+		}
+	}
+
+	// Trier les candidats par EcoScore décroissant
+	sort.SliceStable(candidates, func(i, j int) bool {
+		// Mettre ceux avec un score plus élevé en premier
+		return candidates[i].EcoScore > candidates[j].EcoScore
+	})
+
+	return candidates
 }
 
 // SetPeerConnecting marque un pair comme étant en cours de connexion DQMP.
@@ -234,10 +295,20 @@ func (m *Manager) RemovePeer(id peer.ID) {
 func (m *Manager) GetAllPeers() []*Peer {
 	m.mu.RLock()
 	defer m.mu.RUnlock()
+	log.Printf("PEERS_DEBUG: GetAllPeers - Nombre total d'entrées dans m.peers: %d", len(m.peers)) // Log taille map
 	list := make([]*Peer, 0, len(m.peers))
-	for _, peer := range m.peers {
+	i := 0
+	for id, peer := range m.peers { // Itère sur clé ET valeur
+		// >>> LOG CRUCIAL ICI <<<
+		log.Printf("PEERS_DEBUG: GetAllPeers - Itération %d: ID=%s, PeerPtr=%p, EstNil=%t", i, id.ShortString(), peer, peer == nil)
+		if peer == nil {
+			log.Printf("PEERS_DEBUG: GetAllPeers - ATTENTION! Peer NIL trouvé pour ID %s", id.ShortString())
+		}
+		// >>> FIN LOG <<<
 		list = append(list, peer)
+		i++
 	}
+	log.Printf("PEERS_DEBUG: GetAllPeers - Retourne une slice de longueur %d", len(list)) // Log taille slice
 	return list
 }
 

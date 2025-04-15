@@ -1,0 +1,19 @@
+# config/node1.yaml
+network:
+  listen: "127.0.0.1:4242" # Adresse DQMP locale
+logging:
+  level: "info"
+api:
+  enabled: true
+  listen: "127.0.0.1:8003" # Adresse API locale
+data:
+  directory: "./dqmp_node_data_4242" # Répertoire unique basé sur port DQMP
+discovery:
+  # listen_addrs: # Laisser les défauts (tcp/0 et udp/0/quic-v1)
+  #   - "/ip4/0.0.0.0/tcp/0"
+  #   - "/ip4/0.0.0.0/udp/0/quic-v1"
+  bootstrap_peers: [] # Laisser vide pour utiliser les bootstrap peers publics par défaut de libp2p
+  # Ou supprimer complètement la ligne 'bootstrap_peers:'
+  rendezvous: "dqmp-network-v1.0"
+  identity_path: "dqmp_identity_4242.key" # Chemin unique basé sur port DQMP
+  discovery_interval: "1m"

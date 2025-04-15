@@ -1,0 +1,3696 @@
+
+/bundle.txt/
+
+/go.mod/
+module github.com/bradanzie/dqmp
+
+go 1.24.2
+
+require (
+	github.com/libp2p/go-libp2p v0.41.1
+	github.com/multiformats/go-multiaddr v0.15.0
+	github.com/quic-go/quic-go v0.50.1
+	github.com/spf13/cobra v1.9.1
+	github.com/spf13/pflag v1.0.6
+)
+
+require (
+	github.com/andybalholm/brotli v1.0.1 // indirect
+	github.com/benbjohnson/clock v1.3.5 // indirect
+	github.com/beorn7/perks v1.0.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
+	github.com/containerd/cgroups v1.1.0 // indirect
+	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
+	github.com/davidlazar/go-crypto v0.0.0-20200604182044-b73af7476f6c // indirect
+	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.4.0 // indirect
+	github.com/docker/go-units v0.5.0 // indirect
+	github.com/dsnet/compress v0.0.2-0.20210315054119-f66993602bf5 // indirect
+	github.com/elastic/gosigar v0.14.3 // indirect
+	github.com/flynn/noise v1.1.0 // indirect
+	github.com/francoispqt/gojay v1.2.13 // indirect
+	github.com/fsnotify/fsnotify v1.8.0 // indirect
+	github.com/go-logr/logr v1.4.2 // indirect
+	github.com/go-logr/stdr v1.2.2 // indirect
+	github.com/go-task/slim-sprig/v3 v3.0.0 // indirect
+	github.com/go-viper/mapstructure/v2 v2.2.1 // indirect
+	github.com/godbus/dbus/v5 v5.1.0 // indirect
+	github.com/gogo/protobuf v1.3.2 // indirect
+	github.com/golang/snappy v0.0.2 // indirect
+	github.com/google/gopacket v1.1.19 // indirect
+	github.com/google/uuid v1.6.0 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/hashicorp/golang-lru v1.0.2 // indirect
+	github.com/huin/goupnp v1.3.0 // indirect
+	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/ipfs/boxo v0.29.1 // indirect
+	github.com/ipfs/go-cid v0.5.0 // indirect
+	github.com/ipfs/go-datastore v0.8.2 // indirect
+	github.com/ipfs/go-log v1.0.5 // indirect
+	github.com/ipfs/go-log/v2 v2.5.1 // indirect
+	github.com/ipld/go-ipld-prime v0.21.0 // indirect
+	github.com/jackpal/go-nat-pmp v1.0.2 // indirect
+	github.com/jbenet/go-temp-err-catcher v0.1.0 // indirect
+	github.com/klauspost/compress v1.18.0 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.10 // indirect
+	github.com/klauspost/pgzip v1.2.5 // indirect
+	github.com/koron/go-ssdp v0.0.5 // indirect
+	github.com/libp2p/go-buffer-pool v0.1.0 // indirect
+	github.com/libp2p/go-cidranger v1.1.0 // indirect
+	github.com/libp2p/go-flow-metrics v0.2.0 // indirect
+	github.com/libp2p/go-libp2p-asn-util v0.4.1 // indirect
+	github.com/libp2p/go-libp2p-kbucket v0.7.0 // indirect
+	github.com/libp2p/go-libp2p-record v0.3.1 // indirect
+	github.com/libp2p/go-libp2p-routing-helpers v0.7.5 // indirect
+	github.com/libp2p/go-msgio v0.3.0 // indirect
+	github.com/libp2p/go-netroute v0.2.2 // indirect
+	github.com/libp2p/go-reuseport v0.4.0 // indirect
+	github.com/libp2p/go-yamux/v5 v5.0.0 // indirect
+	github.com/marten-seemann/tcp v0.0.0-20210406111302-dfbc87cc63fd // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/miekg/dns v1.1.63 // indirect
+	github.com/mikioh/tcpinfo v0.0.0-20190314235526-30a79bb1804b // indirect
+	github.com/mikioh/tcpopt v0.0.0-20190314235656-172688c1accc // indirect
+	github.com/minio/sha256-simd v1.0.1 // indirect
+	github.com/mr-tron/base58 v1.2.0 // indirect
+	github.com/multiformats/go-base32 v0.1.0 // indirect
+	github.com/multiformats/go-base36 v0.2.0 // indirect
+	github.com/multiformats/go-multiaddr-dns v0.4.1 // indirect
+	github.com/multiformats/go-multiaddr-fmt v0.1.0 // indirect
+	github.com/multiformats/go-multibase v0.2.0 // indirect
+	github.com/multiformats/go-multicodec v0.9.0 // indirect
+	github.com/multiformats/go-multihash v0.2.3 // indirect
+	github.com/multiformats/go-multistream v0.6.0 // indirect
+	github.com/multiformats/go-varint v0.0.7 // indirect
+	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
+	github.com/nwaples/rardecode v1.1.0 // indirect
+	github.com/opencontainers/runtime-spec v1.2.0 // indirect
+	github.com/opentracing/opentracing-go v1.2.0 // indirect
+	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
+	github.com/pierrec/lz4/v4 v4.1.2 // indirect
+	github.com/pion/datachannel v1.5.10 // indirect
+	github.com/pion/dtls/v2 v2.2.12 // indirect
+	github.com/pion/dtls/v3 v3.0.4 // indirect
+	github.com/pion/ice/v4 v4.0.8 // indirect
+	github.com/pion/interceptor v0.1.37 // indirect
+	github.com/pion/logging v0.2.3 // indirect
+	github.com/pion/mdns/v2 v2.0.7 // indirect
+	github.com/pion/randutil v0.1.0 // indirect
+	github.com/pion/rtcp v1.2.15 // indirect
+	github.com/pion/rtp v1.8.11 // indirect
+	github.com/pion/sctp v1.8.37 // indirect
+	github.com/pion/sdp/v3 v3.0.10 // indirect
+	github.com/pion/srtp/v3 v3.0.4 // indirect
+	github.com/pion/stun v0.6.1 // indirect
+	github.com/pion/stun/v3 v3.0.0 // indirect
+	github.com/pion/transport/v2 v2.2.10 // indirect
+	github.com/pion/transport/v3 v3.0.7 // indirect
+	github.com/pion/turn/v4 v4.0.0 // indirect
+	github.com/pion/webrtc/v4 v4.0.10 // indirect
+	github.com/pkg/errors v0.9.1 // indirect
+	github.com/polydawn/refmt v0.89.0 // indirect
+	github.com/prometheus/client_golang v1.21.1 // indirect
+	github.com/prometheus/client_model v0.6.1 // indirect
+	github.com/prometheus/common v0.62.0 // indirect
+	github.com/prometheus/procfs v0.15.1 // indirect
+	github.com/quic-go/qpack v0.5.1 // indirect
+	github.com/quic-go/webtransport-go v0.8.1-0.20241018022711-4ac2c9250e66 // indirect
+	github.com/raulk/go-watchdog v1.3.0 // indirect
+	github.com/sagikazarmark/locafero v0.7.0 // indirect
+	github.com/sourcegraph/conc v0.3.0 // indirect
+	github.com/spaolacci/murmur3 v1.1.0 // indirect
+	github.com/spf13/afero v1.12.0 // indirect
+	github.com/spf13/cast v1.7.1 // indirect
+	github.com/subosito/gotenv v1.6.0 // indirect
+	github.com/ulikunitz/xz v0.5.9 // indirect
+	github.com/whyrusleeping/go-keyspace v0.0.0-20160322163242-5b898ac5add1 // indirect
+	github.com/wlynxg/anet v0.0.5 // indirect
+	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
+	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/otel v1.34.0 // indirect
+	go.opentelemetry.io/otel/metric v1.34.0 // indirect
+	go.opentelemetry.io/otel/trace v1.34.0 // indirect
+	go.uber.org/dig v1.18.0 // indirect
+	go.uber.org/fx v1.23.0 // indirect
+	go.uber.org/multierr v1.11.0 // indirect
+	go.uber.org/zap v1.27.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
+	gonum.org/v1/gonum v0.15.1 // indirect
+	google.golang.org/protobuf v1.36.6 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+	lukechampine.com/blake3 v1.4.0 // indirect
+)
+
+require (
+	github.com/bmatcuk/doublestar/v4 v4.8.1
+	github.com/google/pprof v0.0.0-20250208200701-d0013a598941 // indirect
+	github.com/libp2p/go-libp2p-kad-dht v0.31.0
+	github.com/mholt/archiver/v3 v3.5.1
+	github.com/onsi/ginkgo/v2 v2.22.2 // indirect
+	github.com/spf13/viper v1.20.1
+	go.etcd.io/bbolt v1.4.0
+	go.uber.org/mock v0.5.0 // indirect
+	golang.org/x/crypto v0.36.0 // indirect
+	golang.org/x/exp v0.0.0-20250305212735-054e65f0b394 // indirect
+	golang.org/x/mod v0.24.0 // indirect
+	golang.org/x/net v0.37.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/tools v0.31.0 // indirect
+)
+
+/Makefile/
+# Makefile
+.PHONY: all build dqmpd dqmpctl run clean test fmt tidy
+
+# Variables
+DQMPD_BINARY=dqmpd
+DQMPCTL_BINARY=dqmpctl
+DQMPD_CMD_PATH=./cmd/dqmpd
+DQMPCTL_CMD_PATH=./cmd/dqmpctl
+CONFIG_FILE?=config/default.yaml
+
+all: build
+
+build: dqmpd dqmpctl
+
+dqmpd: tidy fmt
+	@echo "Building ${DQMPD_BINARY}..."
+	@go build -o bin/${DQMPD_BINARY} ${DQMPD_CMD_PATH}
+	@echo "Build complete: bin/${DQMPD_BINARY}"
+
+dqmpctl: tidy fmt
+	@echo "Building ${DQMPCTL_BINARY}..."
+	@go build -o bin/${DQMPCTL_BINARY} ${DQMPCTL_CMD_PATH}
+	@echo "Build complete: bin/${DQMPCTL_BINARY}"
+
+run: dqmpd # Assure que dqmpd est construit
+	@echo "Running ${DQMPD_BINARY} with config ${CONFIG_FILE}..."
+	@./bin/${DQMPD_BINARY} --config ${CONFIG_FILE}
+
+test: tidy
+	@echo "Running tests..."
+	@go test ./...
+
+clean:
+	@echo "Cleaning build artifacts..."
+	@rm -rf bin/
+
+fmt:
+	@echo "Formatting code..."
+	@go fmt ./...
+
+tidy:
+	@echo "Tidying modules..."
+	@go mod tidy
+/bin\dqmpctl/
+[Erreur de lecture du fichier: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte]
+
+/bin\dqmpd/
+[Erreur de lecture du fichier: 'utf-8' codec can't decode byte 0x90 in position 2: invalid start byte]
+
+/cmd\dqmpctl\main.go/
+// cmd/dqmpctl/main.go
+package main
+
+import (
+	"github.com/bradanzie/dqmp/cmd/dqmpctl/cmd" // Adaptez
+)
+
+func main() {
+	cmd.Execute()
+}
+
+/cmd\dqmpctl\cmd\data_delete.go/
+// cmd/dqmpctl/cmd/data_delete.go
+package cmd
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+// dataDeleteCmd represents the data delete command
+var dataDeleteCmd = &cobra.Command{
+	Use:   "delete <key>",
+	Short: "Supprime une paire clé-valeur d'un nœud",
+	Long:  `Envoie une requête DELETE à l'API REST (/data/{key}) du nœud cible.`,
+	Args:  cobra.ExactArgs(1),
+	Run: func(cmd *cobra.Command, args []string) {
+		key := args[0]
+		targetURL := apiTarget + "/data/" + key
+		fmt.Printf("Suppression de la clé '%s' sur %s...\n", key, targetURL)
+
+		// Créer la requête DELETE
+		req, err := http.NewRequest(http.MethodDelete, targetURL, nil) // Pas de corps pour DELETE
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur création requête DELETE: %v\n", err)
+			os.Exit(1)
+		}
+
+		client := http.Client{Timeout: 10 * time.Second}
+		resp, err := client.Do(req)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête DELETE: %v\n", err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		// Vérifier le statut de la réponse
+		if resp.StatusCode != http.StatusNoContent { // On attend 204
+			bodyBytes, _ := io.ReadAll(resp.Body)
+			fmt.Fprintf(os.Stderr, "Erreur: Le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			os.Exit(1)
+		}
+
+		fmt.Printf("Succès: Clé '%s' supprimée (si elle existait).\n", key)
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(dataDeleteCmd)
+}
+
+/cmd\dqmpctl\cmd\data_get.go/
+// cmd/dqmpctl/cmd/data_get.go
+package cmd
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+var outputFile string // Flag pour écrire dans un fichier
+
+// dataGetCmd represents the data get command
+var dataGetCmd = &cobra.Command{
+	Use:   "get <key>",
+	Short: "Récupère la valeur associée à une clé depuis un nœud",
+	Long:  `Interroge l'API REST (GET /data/{key}) du nœud cible pour récupérer la valeur.`,
+	Args:  cobra.ExactArgs(1),
+	Run: func(cmd *cobra.Command, args []string) {
+		key := args[0]
+		targetURL := apiTarget + "/data/" + key
+		fmt.Printf("Récupération de la clé '%s' depuis %s...\n", key, targetURL)
+
+		client := http.Client{Timeout: 10 * time.Second}
+		resp, err := client.Get(targetURL)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête GET: %v\n", err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode == http.StatusNotFound {
+			fmt.Fprintf(os.Stderr, "Erreur: Clé '%s' non trouvée sur le nœud.\n", key)
+			os.Exit(1)
+		}
+		if resp.StatusCode != http.StatusOK {
+			bodyBytes, _ := io.ReadAll(resp.Body)
+			fmt.Fprintf(os.Stderr, "Erreur: Le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			os.Exit(1)
+		}
+
+		// Déterminer la sortie (stdout ou fichier)
+		var writer io.Writer = os.Stdout
+		if outputFile != "" {
+			file, err := os.Create(outputFile)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Erreur: Impossible de créer le fichier de sortie '%s': %v\n", outputFile, err)
+				os.Exit(1)
+			}
+			defer file.Close()
+			writer = file
+			fmt.Printf("Écriture de la valeur dans '%s'...\n", outputFile)
+		} else {
+			fmt.Println("\n--- Valeur ---")
+		}
+
+		// Copier le corps de la réponse vers la sortie
+		bytesCopied, err := io.Copy(writer, resp.Body)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la lecture/écriture de la valeur: %v\n", err)
+			os.Exit(1)
+		}
+
+		if outputFile == "" {
+			fmt.Println("\n--------------") // Séparateur pour stdout
+		}
+		fmt.Printf("Succès: %d octets récupérés.\n", bytesCopied)
+
+	},
+}
+
+func init() {
+	// Créer une sous-commande 'data' pour grouper
+	// dataCmd := &cobra.Command{Use: "data", Short: "Interagir avec les données stockées"}
+	// rootCmd.AddCommand(dataCmd)
+	// dataCmd.AddCommand(dataGetCmd)
+	// // Ajouter les autres commandes data à dataCmd
+
+	// Pour l'instant, on les ajoute à la racine pour la simplicité
+	rootCmd.AddCommand(dataGetCmd)
+	dataGetCmd.Flags().StringVarP(&outputFile, "output", "o", "", "Fichier où écrire la valeur (défaut: stdout)")
+}
+
+/cmd\dqmpctl\cmd\data_list.go/
+// cmd/dqmpctl/cmd/data_list.go
+package cmd
+
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+// dataListCmd represents the data list command
+var dataListCmd = &cobra.Command{
+	Use:   "list",
+	Short: "Liste les clés stockées sur un nœud",
+	Long:  `Interroge l'API REST (GET /data/) du nœud cible pour lister toutes les clés.`,
+	Args:  cobra.NoArgs,
+	Run: func(cmd *cobra.Command, args []string) {
+		targetURL := apiTarget + "/data/" // URL sans clé
+		fmt.Printf("Listage des clés depuis %s...\n", targetURL)
+
+		client := http.Client{Timeout: 10 * time.Second}
+		resp, err := client.Get(targetURL)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête GET: %v\n", err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode != http.StatusOK {
+			bodyBytes, _ := io.ReadAll(resp.Body)
+			fmt.Fprintf(os.Stderr, "Erreur: Le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			os.Exit(1)
+		}
+
+		// Décoder la réponse JSON (attendue comme un tableau de strings)
+		var keys []string
+		if err := json.NewDecoder(resp.Body).Decode(&keys); err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors du décodage de la réponse JSON: %v\n", err)
+			os.Exit(1)
+		}
+
+		fmt.Println("\n--- Clés Stockées ---")
+		if len(keys) == 0 {
+			fmt.Println("(Aucune clé trouvée)")
+		} else {
+			for _, key := range keys {
+				fmt.Println(key)
+			}
+		}
+		fmt.Printf("Total: %d clé(s).\n", len(keys))
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(dataListCmd)
+}
+
+/cmd\dqmpctl\cmd\data_put.go/
+// cmd/dqmpctl/cmd/data_put.go
+package cmd
+
+import (
+	"bytes"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+var inputFile string // Flag pour lire depuis un fichier
+
+// dataPutCmd represents the data put command
+var dataPutCmd = &cobra.Command{
+	Use:   "put <key> [value]",
+	Short: "Stocke une paire clé-valeur sur un nœud",
+	Long: `Envoie une requête PUT à l'API REST (/data/{key}) du nœud cible.
+La valeur peut être fournie en argument ou lue depuis un fichier avec --input.`,
+	Args: cobra.RangeArgs(1, 2), // Soit clé seule (avec --input), soit clé et valeur
+	Run: func(cmd *cobra.Command, args []string) {
+		key := args[0]
+		var payloadReader io.Reader
+		var payloadLen int64 = -1 // Taille inconnue initialement
+
+		// Déterminer la source du payload (argument ou fichier)
+		if len(args) == 2 { // Valeur en argument
+			value := args[1]
+			payloadReader = bytes.NewReader([]byte(value))
+			payloadLen = int64(len(value))
+		} else if inputFile != "" { // Valeur depuis fichier
+			file, err := os.Open(inputFile)
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Erreur: Impossible d'ouvrir le fichier d'entrée '%s': %v\n", inputFile, err)
+				os.Exit(1)
+			}
+			defer file.Close()
+			// Obtenir la taille pour le Content-Length (bonne pratique HTTP)
+			fileInfo, err := file.Stat()
+			if err != nil {
+				fmt.Fprintf(os.Stderr, "Erreur: Impossible d'obtenir les informations du fichier '%s': %v\n", inputFile, err)
+				os.Exit(1)
+			}
+			payloadLen = fileInfo.Size()
+			payloadReader = file
+		} else {
+			fmt.Fprintln(os.Stderr, "Erreur: Vous devez fournir une valeur en argument ou utiliser --input <fichier>.")
+			os.Exit(1)
+		}
+
+		// Vérifier la taille max (si connue)
+		// Note: MaxPayloadSize est défini dans pkg/data, pas idéal d'y accéder directement ici.
+		// On pourrait le passer en config ou juste laisser le serveur rejeter. Laissons le serveur gérer.
+		// const MaxPayloadSize = 240 // À éviter ici
+		// if payloadLen > MaxPayloadSize { ... }
+
+		targetURL := apiTarget + "/data/" + key
+		fmt.Printf("Stockage de la clé '%s' sur %s...\n", key, targetURL)
+
+		// Créer la requête PUT
+		req, err := http.NewRequest(http.MethodPut, targetURL, payloadReader)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur création requête PUT: %v\n", err)
+			os.Exit(1)
+		}
+		req.Header.Set("Content-Type", "application/octet-stream") // Type de contenu brut
+		if payloadLen >= 0 {
+			req.ContentLength = payloadLen // Important pour le serveur
+		}
+
+		client := http.Client{Timeout: 15 * time.Second} // Timeout un peu plus long pour l'upload
+		resp, err := client.Do(req)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête PUT: %v\n", err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		// Vérifier le statut de la réponse
+		if resp.StatusCode != http.StatusNoContent { // On attend 204 du serveur
+			bodyBytes, _ := io.ReadAll(resp.Body)
+			fmt.Fprintf(os.Stderr, "Erreur: Le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			// Tenter de donner une raison plus spécifique
+			if resp.StatusCode == http.StatusRequestEntityTooLarge {
+				fmt.Fprintln(os.Stderr, "(La taille du payload dépasse probablement la limite du serveur)")
+			}
+			os.Exit(1)
+		}
+
+		fmt.Printf("Succès: Clé '%s' stockée/mise à jour.\n", key)
+
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(dataPutCmd)
+	dataPutCmd.Flags().StringVarP(&inputFile, "input", "i", "", "Fichier contenant la valeur à stocker")
+}
+
+/cmd\dqmpctl\cmd\peers.go/
+// cmd/dqmpctl/cmd/peers.go
+package cmd
+
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+// peersCmd represents the peers command
+var peersCmd = &cobra.Command{
+	Use:   "peers",
+	Short: "Liste les pairs connus par un nœud DQMP via son API",
+	Long:  `Interroge l'endpoint /peers de l'API REST du nœud cible spécifié par --target.`,
+	Args:  cobra.NoArgs,
+	Run: func(cmd *cobra.Command, args []string) {
+		targetURL := apiTarget + "/peers"
+		fmt.Printf("Récupération de la liste des pairs depuis %s...\n", targetURL)
+
+		client := http.Client{Timeout: 10 * time.Second} // Un peu plus long pour les pairs ?
+		resp, err := client.Get(targetURL)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête vers %s: %v\n", targetURL, err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode != http.StatusOK {
+			bodyBytes, _ := io.ReadAll(resp.Body)
+			fmt.Fprintf(os.Stderr, "Erreur: le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			os.Exit(1)
+		}
+
+		// Structure attendue de la réponse (tableau de PeerInfo)
+		type PeerInfo struct {
+			Address     string `json:"address"`
+			IsConnected bool   `json:"is_connected"`
+		}
+		var peersResp []PeerInfo
+
+		if err := json.NewDecoder(resp.Body).Decode(&peersResp); err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors du décodage de la réponse JSON: %v\n", err)
+			os.Exit(1)
+		}
+
+		// Afficher la liste
+		fmt.Println("\n--- Pairs Connus ---")
+		if len(peersResp) == 0 {
+			fmt.Println("(Aucun pair connu)")
+		} else {
+			fmt.Printf("%-25s | %s\n", "Adresse", "Connecté")
+			fmt.Println("--------------------------|-----------")
+			for _, p := range peersResp {
+				fmt.Printf("%-25s | %t\n", p.Address, p.IsConnected)
+			}
+		}
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(peersCmd)
+}
+
+/cmd\dqmpctl\cmd\ping.go/
+// cmd/dqmpctl/cmd/ping.go
+package cmd
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+	// On a besoin d'une fonction Dial et d'une manière d'ouvrir un stream et d'envoyer/recevoir.
+	// Pour éviter de dupliquer la logique de dial+ping dans dqmpctl, on pourrait :
+	// 1. Exposer une fonction Ping client dans un package partagé.
+	// 2. Ou (plus simple pour l'instant) réimplémenter la logique client PING ici.
+	// Choisissons l'option 2 pour ce premier jet.
+	"bufio"
+	"strings"
+
+	"github.com/bradanzie/dqmp/pkg/transport" // Adaptez
+)
+
+const (
+	cliPingTimeout   = 10 * time.Second
+	pingStreamMsgCLI = "PING"
+	pongStreamMsgCLI = "PONG"
+)
+
+// pingCmd represents the ping command
+var pingCmd = &cobra.Command{
+	Use:   "ping <node_address>",
+	Short: "Envoie un PING à un nœud DQMP et attend un PONG",
+	Long: `Vérifie la connectivité et la latence de base avec un nœud DQMP
+spécifié par son adresse (ex: localhost:4242 ou 1.2.3.4:4242).`,
+	Args: cobra.ExactArgs(1), // S'assure qu'on a exactement une adresse
+	Run: func(cmd *cobra.Command, args []string) {
+		targetAddr := args[0]
+		fmt.Printf("Pinging %s...\n", targetAddr)
+
+		// Créer un contexte avec timeout
+		ctx, cancel := context.WithTimeout(context.Background(), cliPingTimeout)
+		defer cancel()
+
+		startTime := time.Now()
+
+		// Établir la connexion QUIC
+		conn, err := transport.Dial(ctx, targetAddr)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur de connexion à %s: %v\n", targetAddr, err)
+			os.Exit(1)
+		}
+		defer conn.CloseWithError(0, "CLI Ping done") // Fermer proprement
+
+		connectDuration := time.Since(startTime)
+		fmt.Printf("Connecté à %s en %v\n", targetAddr, connectDuration)
+
+		// Ouvrir un stream
+		streamCtx, streamCancel := context.WithTimeout(ctx, cliPingTimeout-connectDuration) // Utiliser le temps restant
+		defer streamCancel()
+		stream, err := conn.OpenStreamSync(streamCtx)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur d'ouverture du stream vers %s: %v\n", targetAddr, err)
+			os.Exit(1)
+		}
+		defer stream.Close()
+
+		// Envoyer PING
+		_, err = stream.Write([]byte(pingStreamMsgCLI + "\n"))
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur d'envoi PING vers %s: %v\n", targetAddr, err)
+			os.Exit(1)
+		}
+
+		// Attendre PONG
+		reader := bufio.NewReader(stream)
+		stream.SetReadDeadline(time.Now().Add(cliPingTimeout - connectDuration)) // Définir deadline de lecture
+
+		response, err := reader.ReadString('\n')
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur de réception PONG de %s: %v\n", targetAddr, err)
+			os.Exit(1)
+		}
+
+		rtt := time.Since(startTime) // Temps total depuis le début
+		response = strings.TrimSpace(response)
+
+		if response == pongStreamMsgCLI {
+			fmt.Printf("Réponse PONG reçue de %s en %v\n", targetAddr, rtt)
+		} else {
+			fmt.Fprintf(os.Stderr, "Réponse inattendue de %s: '%s'\n", targetAddr, response)
+			os.Exit(1)
+		}
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(pingCmd)
+
+	// Flags locaux pour la commande ping (si nécessaire)
+	// pingCmd.Flags().IntP("count", "c", 4, "Nombre de pings à envoyer")
+}
+
+/cmd\dqmpctl\cmd\root.go/
+// cmd/dqmpctl/cmd/root.go
+package cmd
+
+import (
+	"fmt"
+	"os"
+
+	"github.com/spf13/cobra"
+	"github.com/spf13/viper"
+)
+
+// Variable pour le flag --config (si on ajoute une config au CLI plus tard)
+var (
+	cfgFile   string
+	apiTarget string // Nouvelle variable globale pour l'adresse API
+)
+
+// rootCmd représente la commande de base sans arguments
+var rootCmd = &cobra.Command{
+	Use:   "dqmpctl",
+	Short: "Un outil CLI pour interagir avec les nœuds DQMP",
+	Long: `dqmpctl permet d'envoyer des commandes de contrôle, de récupérer
+des informations et de gérer un réseau DQMP.`,
+	// Décommenter si la commande racine doit faire quelque chose :
+	// Run: func(cmd *cobra.Command, args []string) { },
+}
+
+// Execute ajoute toutes les commandes enfants à la commande racine et définit les flags.
+// Est appelé par main.main(). Ne doit être appelé qu'une seule fois par rootCmd.
+func Execute() {
+	err := rootCmd.Execute()
+	if err != nil {
+		fmt.Fprintf(os.Stderr, "Erreur: %s\n", err)
+		os.Exit(1)
+	}
+}
+
+func init() {
+	cobra.OnInitialize(initConfig)
+
+	// Flags globaux (si nécessaire)
+	rootCmd.PersistentFlags().StringVarP(&apiTarget, "target", "t", "http://127.0.0.1:8080", "Adresse de l'API REST du nœud cible (ex: http://host:port)")
+
+	// Flags locaux à la commande racine (si nécessaire)
+	// rootCmd.Flags().BoolP("toggle", "t", false, "Help message for toggle")
+}
+
+// initConfig lit le fichier de config et les variables d'env si définis.
+func initConfig() {
+	if cfgFile != "" {
+		// Use config file from the flag.
+		viper.SetConfigFile(cfgFile)
+	} else {
+		// Find home directory.
+		home, err := os.UserHomeDir()
+		cobra.CheckErr(err)
+
+		// Search config in home directory with name ".dqmpctl" (without extension).
+		viper.AddConfigPath(home)
+		viper.SetConfigType("yaml")
+		viper.SetConfigName(".dqmpctl")
+	}
+
+	viper.AutomaticEnv() // read in environment variables that match
+
+	// If a config file is found, read it in.
+	if err := viper.ReadInConfig(); err == nil {
+		fmt.Fprintln(os.Stderr, "Using config file:", viper.ConfigFileUsed())
+	}
+}
+
+/cmd\dqmpctl\cmd\status.go/
+// cmd/dqmpctl/cmd/status.go
+package cmd
+
+import (
+	"encoding/json"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"time"
+
+	"github.com/spf13/cobra"
+)
+
+// statusCmd represents the status command
+var statusCmd = &cobra.Command{
+	Use:   "status",
+	Short: "Récupère le statut général d'un nœud DQMP via son API",
+	Long:  `Interroge l'endpoint /status de l'API REST du nœud cible spécifié par --target.`,
+	Args:  cobra.NoArgs, // Pas d'arguments spécifiques pour cette commande
+	Run: func(cmd *cobra.Command, args []string) {
+		targetURL := apiTarget + "/status" // Construire l'URL complète
+		fmt.Printf("Interrogation du statut sur %s...\n", targetURL)
+
+		client := http.Client{Timeout: 5 * time.Second} // Client HTTP simple avec timeout
+		resp, err := client.Get(targetURL)
+		if err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors de la requête vers %s: %v\n", targetURL, err)
+			os.Exit(1)
+		}
+		defer resp.Body.Close()
+
+		if resp.StatusCode != http.StatusOK {
+			bodyBytes, _ := io.ReadAll(resp.Body) // Lire le corps même si erreur
+			fmt.Fprintf(os.Stderr, "Erreur: le serveur a répondu avec le statut %s\n", resp.Status)
+			if len(bodyBytes) > 0 {
+				fmt.Fprintf(os.Stderr, "Réponse: %s\n", string(bodyBytes))
+			}
+			os.Exit(1)
+		}
+
+		// Décoder la réponse JSON
+		var statusResp map[string]interface{} // Utiliser une map générique pour afficher facilement
+		if err := json.NewDecoder(resp.Body).Decode(&statusResp); err != nil {
+			fmt.Fprintf(os.Stderr, "Erreur lors du décodage de la réponse JSON: %v\n", err)
+			os.Exit(1)
+		}
+
+		// Afficher joliment les informations
+		fmt.Println("\n--- Statut du Nœud ---")
+		for key, val := range statusResp {
+			// Formater le temps différemment ?
+			if key == "start_time" {
+				if tStr, ok := val.(string); ok {
+					parsedTime, pErr := time.Parse(time.RFC3339Nano, tStr)
+					if pErr == nil {
+						val = parsedTime.Local().Format("2006-01-02 15:04:05 MST")
+					}
+				}
+			}
+			fmt.Printf("%-15s: %v\n", key, val)
+		}
+	},
+}
+
+func init() {
+	rootCmd.AddCommand(statusCmd)
+	// Pas de flags spécifiques pour status pour l'instant
+}
+
+/cmd\dqmpd\main.go/
+// cmd/dqmpd/main.go
+package main
+
+import (
+	"log"
+	"os"
+
+	"github.com/bradanzie/dqmp/pkg/config" // Adaptez le chemin
+	"github.com/bradanzie/dqmp/pkg/dqmp"   // Adaptez le chemin
+	"github.com/spf13/pflag"
+)
+
+func main() {
+	// Configuration des flags en utilisant pflag
+	fs := pflag.NewFlagSet("dqmpd", pflag.ExitOnError)
+	configPath := config.AddConfigFlag(fs)
+	// Ajoutez d'autres flags ici si nécessaire
+
+	// Parser les flags
+	err := fs.Parse(os.Args[1:])
+	if err != nil {
+		log.Fatalf("ERROR: Erreur lors du parsing des flags: %v", err)
+	}
+
+	// Charger la configuration
+	cfg, err := config.Load(configPath)
+	if err != nil {
+		log.Fatalf("ERROR: Impossible de charger la configuration: %v\n", err)
+	}
+
+	// TODO: Initialiser un logger plus avancé basé sur cfg.Logging.Level
+
+	// Créer le nœud DQMP
+	node, err := dqmp.NewNode(cfg)
+	if err != nil {
+		log.Fatalf("ERROR: Impossible de créer le nœud DQMP: %v\n", err)
+	}
+
+	// Démarrer le nœud et attendre l'arrêt
+	if err := node.Run(); err != nil {
+		log.Fatalf("ERROR: Le nœud s'est arrêté avec une erreur: %v\n", err)
+	}
+
+	log.Println("INFO: dqmpd terminé proprement.")
+}
+
+/config\default.yaml/
+# config/default.yaml
+network:
+  listen: ":4242" # Port d'écoute par défaut
+  multipath:
+    enabled: false # Commençons simple
+    max_paths: 1
+  dht:
+    bootstrap_nodes: [] # Pas de bootstrap pour l'instant
+
+energy:
+  policy: "balanced" # Valeur par défaut, logique à implémenter plus tard
+  thresholds:
+    critical: 5 # en %
+    warning: 20 # en %
+
+logging:
+  level: "info" # Niveaux: debug, info, warn, error
+
+api: 
+  enabled: true
+  listen: ":8002" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data" # Répertoire de stockage des données, Sera modifié par le code si port détecté
+
+discovery:
+  # listen_addrs: # Utiliser les défauts pour l'instant (ports auto)
+  #   - "/ip4/0.0.0.0/tcp/0"
+  #   - "/ip4/0.0.0.0/udp/0/quic-v1"
+  # bootstrap_peers: # Utiliser les défauts publics de libp2p
+  #   - "/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59beuWjBeUFzxA43sKyPkTCaxUSYphgcPNMFGkUgu"
+  rendezvous: "dqmp-network-v1.0" # Important: doit être le même pour tous les nœuds DQMP
+  identity_path: "dqmp_identity.key" # Sera modifié par le code si port détecté
+  discovery_interval: "1m"
+/config\node1.yaml/
+network:
+  listen: "127.0.0.1:4242" # Utiliser IP explicite pour éviter ambiguïté localhost
+  multipath: { enabled: false, max_paths: 1 }
+  dht:
+    bootstrap_nodes:
+      - "127.0.0.1:4243" # Pointe vers node2
+logging:
+  level: "info"
+
+api: 
+  enabled: true
+  listen: ":8003" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data_4242"
+/config\node2.yaml/
+network:
+  listen: "127.0.0.1:4243"
+  multipath: { enabled: false, max_paths: 1 }
+  dht:
+    bootstrap_nodes:
+      - "127.0.0.1:4242" # Pointe vers node1
+logging:
+  level: "info"
+
+api: 
+  enabled: true
+  listen: ":8004" # Port d'écoute de l'API
+
+data:
+  directory: "./dqmp_node_data_4243"
+/pkg\api\server.go/
+// pkg/api/server.go
+package api
+
+import (
+	"context"
+	"encoding/json"
+	"errors"
+	"fmt"
+	"io"
+	"log"
+	"net/http"
+	"runtime"
+	"strings"
+	"time"
+
+	// Importer les packages nécessaires du projet
+	"github.com/bradanzie/dqmp/pkg/config" // Adaptez
+	"github.com/bradanzie/dqmp/pkg/data"
+	"github.com/bradanzie/dqmp/pkg/peers" // Adaptez
+	// "github.com/votre-utilisateur/dqmp-project/pkg/dqmp" // On aura besoin d'une réf au Node plus tard
+)
+
+type NodeReplicator interface {
+	ReplicateData(ctx context.Context, key string, value []byte)
+	// Ajouter d'autres méthodes si l'API a besoin d'autres interactions avec le nœud
+}
+
+// Server encapsule le serveur HTTP de l'API REST.
+type Server struct {
+	config      *config.APIConfig
+	peerManager *peers.Manager // Référence au gestionnaire de pairs
+	dataManager *data.Manager
+	replicator  NodeReplicator
+	startTime   time.Time // Heure de démarrage du nœud
+	nodeVersion string    // Version du nœud (on pourrait la passer)
+	httpServer  *http.Server
+}
+
+// NewServer crée une nouvelle instance du serveur API.
+// On passe les dépendances nécessaires (config, peer manager, etc.).
+func NewServer(
+	cfg *config.APIConfig,
+	pm *peers.Manager,
+	dm *data.Manager,
+	replicator NodeReplicator,
+	startTime time.Time,
+	version string,
+) *Server {
+	if !cfg.Enabled {
+		return nil // Retourne nil si l'API n'est pas activée
+	}
+	return &Server{
+		config:      cfg,
+		peerManager: pm,
+		dataManager: dm,
+		replicator:  replicator,
+		startTime:   startTime,
+		nodeVersion: version, // Exemple: passer une version
+	}
+}
+
+// Start lance le serveur HTTP dans une goroutine.
+func (s *Server) Start() error {
+	if s == nil { // Vérifier si le serveur a été créé (était enabled)
+		log.Println("API: Serveur désactivé, ne démarre pas.")
+		return nil
+	}
+
+	mux := http.NewServeMux() // Utiliser le multiplexeur standard
+
+	// Enregistrer les handlers pour les routes
+	mux.HandleFunc("/status", s.handleStatus)
+	mux.HandleFunc("/peers", s.handlePeers)
+	// Ajouter le préfixe standard (optionnel mais bonne pratique)
+	// mux.Handle("/dqmp/v1/", http.StripPrefix("/dqmp/v1", mux)) // Si on veut préfixer
+	mux.HandleFunc("/data/", s.handleData) // Notez le / final
+
+	s.httpServer = &http.Server{
+		Addr:         s.config.Listen,
+		Handler:      mux,
+		ReadTimeout:  5 * time.Second, // Délais de base
+		WriteTimeout: 10 * time.Second,
+		IdleTimeout:  60 * time.Second,
+	}
+
+	log.Printf("API: Démarrage du serveur HTTP sur %s\n", s.config.Listen)
+	// Lancer dans une goroutine pour ne pas bloquer
+	go func() {
+		if err := s.httpServer.ListenAndServe(); err != nil && err != http.ErrServerClosed {
+			log.Fatalf("API: Échec du démarrage du serveur HTTP: %v\n", err)
+		}
+		log.Println("API: Serveur HTTP arrêté.")
+	}()
+	return nil
+}
+
+// Stop arrête proprement le serveur HTTP.
+func (s *Server) Stop(ctx context.Context) error {
+	if s == nil || s.httpServer == nil {
+		return nil // Pas démarré ou désactivé
+	}
+	log.Println("API: Arrêt du serveur HTTP...")
+	err := s.httpServer.Shutdown(ctx) // Arrêt gracieux avec timeout
+	if err != nil {
+		log.Printf("API: Erreur lors de l'arrêt gracieux du serveur HTTP: %v\n", err)
+		// Tenter un arrêt immédiat si l'arrêt gracieux échoue ?
+		// s.httpServer.Close()
+	} else {
+		log.Println("API: Serveur HTTP arrêté proprement.")
+	}
+	return err // Retourner l'erreur de Shutdown
+}
+
+// --- Handlers ---
+
+// handleStatus renvoie des informations générales sur le nœud.
+func (s *Server) handleStatus(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	status := struct {
+		Version      string    `json:"version"`
+		StartTime    time.Time `json:"start_time"`
+		Uptime       string    `json:"uptime"`
+		GoVersion    string    `json:"go_version"`
+		NumCPU       int       `json:"num_cpu"`
+		NumGoroutine int       `json:"num_goroutine"`
+		PeerCount    int       `json:"peer_count"` // Ajout du nombre de pairs
+	}{
+		Version:      s.nodeVersion, // Utiliser une vraie version plus tard
+		StartTime:    s.startTime,
+		Uptime:       time.Since(s.startTime).Round(time.Second).String(),
+		GoVersion:    runtime.Version(),
+		NumCPU:       runtime.NumCPU(),
+		NumGoroutine: runtime.NumGoroutine(),
+		PeerCount:    len(s.peerManager.GetAllPeers()), // Accès au peer manager
+	}
+
+	writeJSONResponse(w, http.StatusOK, status)
+}
+
+// handlePeers renvoie la liste des pairs connus par le PeerManager.
+// pkg/api/server.go
+
+// handlePeers renvoie la liste des pairs connus par le PeerManager.
+func (s *Server) handlePeers(w http.ResponseWriter, r *http.Request) {
+	if r.Method != http.MethodGet {
+		http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
+		return
+	}
+
+	allPeers := s.peerManager.GetAllPeers() // Récupère la liste
+
+	// Définir la structure de la réponse
+	type PeerInfoAPI struct { // Renommer pour éviter conflit si PeerInfo existe ailleurs
+		PeerID      string    `json:"peer_id"`
+		State       string    `json:"state"`
+		DQMPAddress string    `json:"dqmp_address,omitempty"`
+		Multiaddrs  []string  `json:"multiaddrs,omitempty"` // Sera omis si vide/nil
+		LastSeen    time.Time `json:"last_seen"`
+		LastError   string    `json:"last_error,omitempty"` // Sera omis si vide/nil
+	}
+
+	response := make([]PeerInfoAPI, 0, len(allPeers)) // Initialiser avec capacité
+
+	for _, p := range allPeers {
+		// Vérification cruciale: ignorer si le pair est nil (ne devrait pas arriver, mais par sécurité)
+		if p == nil {
+			continue
+		}
+
+		// Préparer les champs avec vérifications nil
+		maddrsStr := []string{}  // Initialiser à vide, pas nil
+		if p.Multiaddrs != nil { // Vérifier si le slice Multiaddrs est nil
+			maddrsStr = make([]string, 0, len(p.Multiaddrs)) // Initialiser avec capacité
+			for _, ma := range p.Multiaddrs {
+				if ma != nil { // Vérifier si l'adresse elle-même est nil
+					maddrsStr = append(maddrsStr, ma.String())
+				}
+			}
+		}
+
+		dqmpAddrStr := ""
+		if p.DQMPAddr != nil { // Vérifier si l'adresse DQMP est nil
+			dqmpAddrStr = p.DQMPAddr.String()
+		}
+
+		errStr := ""
+		if p.LastError != nil { // Vérifier si l'erreur est nil
+			errStr = p.LastError.Error()
+		}
+
+		peerIDStr := ""
+		if p.ID != "" { // Vérifier si l'ID est non vide
+			peerIDStr = p.ID.String()
+		} else {
+			peerIDStr = "(Inconnu)" // Indiquer si l'ID n'a pas pu être déterminé
+		}
+
+		response = append(response, PeerInfoAPI{
+			PeerID:      peerIDStr,
+			State:       string(p.State), // L'état ne devrait pas être nil
+			DQMPAddress: dqmpAddrStr,
+			Multiaddrs:  maddrsStr,  // Utiliser le slice potentiellement vide
+			LastSeen:    p.LastSeen, // Time.Time n'est pas un pointeur
+			LastError:   errStr,
+		})
+	}
+
+	writeJSONResponse(w, http.StatusOK, response) // Envoyer la réponse JSON
+}
+
+// handleData gère les requêtes sur les données (GET, PUT, DELETE).
+// On pourrait ajouter un préfixe comme /dqmp/v1/data/ pour versionner l'API.
+// On pourrait aussi utiliser un routeur comme gorilla/mux pour plus de flexibilité.
+// On pourrait aussi ajouter un middleware pour la gestion des erreurs.
+func (s *Server) handleData(w http.ResponseWriter, r *http.Request) {
+	// Extraire la clé de l'URL, ex: /data/mykey -> mykey
+	key := strings.TrimPrefix(r.URL.Path, "/data/")
+	if key == "" {
+		if r.Method == http.MethodGet {
+			// Si GET /data/ (sans clé), lister les clés
+			s.handleListKeys(w, r)
+			return
+		}
+		http.Error(w, "Clé manquante dans l'URL (/data/{key})", http.StatusBadRequest)
+		return
+	}
+
+	// Dispatcher selon la méthode HTTP
+	switch r.Method {
+	case http.MethodGet:
+		s.handleGetData(w, r, key)
+	case http.MethodPut:
+		s.handlePutData(w, r, key)
+	case http.MethodDelete:
+		s.handleDeleteData(w, r, key)
+	default:
+		http.Error(w, "Method Not Allowed", http.StatusMethodNotAllowed)
+	}
+}
+
+// handleGetData gère les requêtes GET pour récupérer des données par clé.
+func (s *Server) handleGetData(w http.ResponseWriter, r *http.Request, key string) {
+	log.Printf("API: Requête GET pour la clé '%s'\n", key)
+	payload, err := s.dataManager.Get(key)
+	if err != nil {
+		if errors.Is(err, data.ErrNotFound) {
+			http.Error(w, "Clé non trouvée", http.StatusNotFound)
+		} else {
+			log.Printf("API: Erreur interne Get data '%s': %v", key, err)
+			http.Error(w, "Erreur interne du serveur", http.StatusInternalServerError)
+		}
+		return
+	}
+
+	// Renvoyer le payload brut. Le Content-Type pourrait être configurable ou deviné.
+	// Pour l'instant, on utilise application/octet-stream.
+	w.Header().Set("Content-Type", "application/octet-stream")
+	w.WriteHeader(http.StatusOK)
+	_, err = w.Write(payload)
+	if err != nil {
+		// Difficile de faire quoi que ce soit si l'écriture échoue ici
+		log.Printf("API: Erreur lors de l'écriture de la réponse GET pour '%s': %v", key, err)
+	}
+}
+
+// handlePutData gère les requêtes PUT pour stocker des données par clé.
+func (s *Server) handlePutData(w http.ResponseWriter, r *http.Request, key string) {
+	log.Printf("API: Requête PUT pour la clé '%s'\n", key)
+
+	// Lire le corps de la requête (le payload)
+	payload, err := io.ReadAll(r.Body)
+	if err != nil {
+		log.Printf("API: Erreur lecture body PUT '%s': %v", key, err)
+		http.Error(w, "Erreur lecture du corps de la requête", http.StatusBadRequest)
+		return
+	}
+	// Ne pas oublier de fermer le Body, même si io.ReadAll le fait souvent.
+	defer r.Body.Close()
+
+	// Vérifier la taille (déjà fait dans NewDataShard, mais on peut le faire ici aussi)
+	if len(payload) > data.MaxPayloadSize {
+		http.Error(w, fmt.Sprintf("La taille du payload (%d) dépasse la limite (%d)", len(payload), data.MaxPayloadSize), http.StatusRequestEntityTooLarge)
+		return
+	}
+
+	// 1. Stocker localement
+	err = s.dataManager.Put(key, payload)
+	if err != nil {
+		log.Printf("API: Erreur interne Put data '%s': %v", key, err)
+		http.Error(w, "Erreur interne du serveur lors du stockage", http.StatusInternalServerError)
+		return
+	}
+	log.Printf("API: Donnée '%s' stockée localement.\n", key)
+
+	// 2. Initier la réplication via l'interface
+	// Vérifier que replicator n'est pas nil (bonne pratique)
+	if s.replicator != nil {
+		go s.replicator.ReplicateData(context.Background(), key, payload)
+	} else {
+		log.Println("WARN: Replicator non défini, impossible de lancer la réplication.")
+	}
+
+	// Répondre avec succès (201 ou 204)
+	// 201 Created si c'est une nouvelle ressource, 204 No Content si mise à jour.
+	// Pour simplifier, utilisons 204.
+	w.WriteHeader(http.StatusNoContent)
+}
+
+// handleDeleteData gère les requêtes DELETE pour supprimer des données par clé.
+func (s *Server) handleDeleteData(w http.ResponseWriter, r *http.Request, key string) {
+	log.Printf("API: Requête DELETE pour la clé '%s'\n", key)
+	err := s.dataManager.Delete(key)
+	if err != nil {
+		log.Printf("API: Erreur interne Delete data '%s': %v", key, err)
+		http.Error(w, "Erreur interne du serveur lors de la suppression", http.StatusInternalServerError)
+		return
+	}
+	// Répondre avec succès
+	w.WriteHeader(http.StatusNoContent)
+}
+
+// handleListKeys gère les requêtes GET pour lister toutes les clés.
+func (s *Server) handleListKeys(w http.ResponseWriter, r *http.Request) {
+	log.Println("API: Requête GET pour lister les clés")
+	keys, err := s.dataManager.ListKeys()
+	if err != nil {
+		log.Printf("API: Erreur interne List keys: %v", err)
+		http.Error(w, "Erreur interne du serveur", http.StatusInternalServerError)
+		return
+	}
+	writeJSONResponse(w, http.StatusOK, keys)
+}
+
+// --- Utilitaires ---
+
+// writeJSONResponse est une fonction helper pour envoyer des réponses JSON.
+func writeJSONResponse(w http.ResponseWriter, statusCode int, data interface{}) {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(statusCode)
+	if data != nil {
+		if err := json.NewEncoder(w).Encode(data); err != nil {
+			// Logguer l'erreur côté serveur, mais difficile d'envoyer une erreur au client maintenant
+			log.Printf("API: Erreur d'encodage JSON: %v\n", err)
+			// On pourrait tenter d'écrire une erreur texte mais l'en-tête est déjà envoyé
+			// http.Error(w, `{"error": "Internal server error during JSON encoding"}`, http.StatusInternalServerError)
+		}
+	}
+}
+
+/pkg\config\config.go/
+// pkg/config/config.go
+package config
+
+import (
+	"fmt"
+	"log"
+	"strings"
+	"time"
+
+	"github.com/spf13/pflag"
+	"github.com/spf13/viper"
+)
+
+// Config est la structure principale de configuration
+type Config struct {
+	Network   NetworkConfig   `mapstructure:"network"`
+	Energy    EnergyConfig    `mapstructure:"energy"`
+	Logging   LoggingConfig   `mapstructure:"logging"`
+	API       APIConfig       `mapstructure:"api"`
+	Data      DataConfig      `mapstructure:"data"`
+	Discovery DiscoveryConfig `mapstructure:"discovery"`
+	// Ajoutez d'autres sections ici au fur et à mesure
+}
+
+type NetworkConfig struct {
+	Listen    string          `mapstructure:"listen"`
+	Multipath MultipathConfig `mapstructure:"multipath"`
+	DHT       DHTConfig       `mapstructure:"dht"`
+}
+
+type MultipathConfig struct {
+	Enabled  bool `mapstructure:"enabled"`
+	MaxPaths int  `mapstructure:"max_paths"`
+}
+
+type DHTConfig struct {
+	BootstrapNodes []string `mapstructure:"bootstrap_nodes"`
+}
+
+type EnergyConfig struct {
+	Policy     string           `mapstructure:"policy"`
+	Thresholds EnergyThresholds `mapstructure:"thresholds"`
+}
+
+type EnergyThresholds struct {
+	Critical int `mapstructure:"critical"`
+	Warning  int `mapstructure:"warning"`
+}
+
+type LoggingConfig struct {
+	Level string `mapstructure:"level"`
+}
+
+// APIConfig contient la configuration pour l'API REST
+type APIConfig struct {
+	Listen  string `mapstructure:"listen"`  // Adresse d'écoute de l'API (ex: ":8080")
+	Enabled bool   `mapstructure:"enabled"` // Pour activer/désactiver l'API
+}
+
+type DataConfig struct {
+	Directory string `mapstructure:"directory"` // Chemin vers le stockage
+}
+
+type DiscoveryConfig struct {
+	ListenAddrs       []string      `mapstructure:"listen_addrs"`       // Multiaddrs libp2p (ex: "/ip4/0.0.0.0/tcp/0")
+	BootstrapPeers    []string      `mapstructure:"bootstrap_peers"`    // Multiaddrs des bootstrap nodes libp2p
+	Rendezvous        string        `mapstructure:"rendezvous"`         // Chaîne d'annonce/découverte pour DQMP
+	IdentityPath      string        `mapstructure:"identity_path"`      // Chemin vers le fichier clé privée libp2p
+	DiscoveryInterval time.Duration `mapstructure:"discovery_interval"` // Intervalle de recherche DHT
+}
+
+// DefaultConfigPath est le chemin par défaut pour le fichier de config
+var DefaultConfigPath = "config/default.yaml"
+
+// Load lit la configuration depuis un fichier et les variables d'environnement.
+func Load(configPath *string) (*Config, error) {
+	v := viper.New()
+
+	// Définir les valeurs par défaut (même si elles sont aussi dans le fichier YAML)
+	v.SetDefault("network.listen", ":4242")
+	v.SetDefault("network.multipath.enabled", false)
+	v.SetDefault("network.multipath.max_paths", 1)
+	v.SetDefault("energy.policy", "balanced")
+	v.SetDefault("energy.thresholds.critical", 5)
+	v.SetDefault("energy.thresholds.warning", 20)
+	v.SetDefault("logging.level", "info")
+	v.SetDefault("api.listen", ":8002")
+	v.SetDefault("api.enabled", true)
+	v.SetDefault("data.directory", "./dqmp_node_data")
+	v.SetDefault("discovery.listen_addrs", []string{
+		"/ip4/0.0.0.0/tcp/0",         // Laisse libp2p choisir un port TCP libre
+		"/ip4/0.0.0.0/udp/0/quic-v1", // Laisse libp2p choisir un port QUIC libre (si on utilise leur QUIC)
+		// Pourrait être un port fixe si nécessaire: "/ip4/0.0.0.0/tcp/4001"
+	})
+	v.SetDefault("discovery.bootstrap_peers", []string{
+		// Ajouter ici les multiaddrs des nœuds bootstrap libp2p publics ou de votre réseau
+		"/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59beuWjBeUFzxA43sKyPkTCaxUSYphgcPNMFGkUgu",
+		"/ip4/104.131.131.82/tcp/4001/p2p/QmaCpDMGvV2BGHeYERUEnRQAwe3N8SzbUtfsmvsqQLuvuJ",
+		// ... d'autres si connus
+	})
+	v.SetDefault("discovery.rendezvous", "dqmp-network-v1.0")    // Clé pour trouver les autres nœuds DQMP
+	v.SetDefault("discovery.identity_path", "dqmp_identity.key") // Chemin relatif par défaut
+	v.SetDefault("discovery.discovery_interval", "1m")           // Rechercher des pairs toutes les minutes
+
+	// Utiliser le chemin fourni ou le chemin par défaut
+	pathToUse := DefaultConfigPath
+	if configPath != nil && *configPath != "" {
+		pathToUse = *configPath
+	}
+
+	v.SetConfigFile(pathToUse)
+
+	// Lire le fichier de config s'il existe
+	if err := v.ReadInConfig(); err != nil {
+		// Ignorer l'erreur si le fichier n'existe pas, mais utiliser les défauts
+		if _, ok := err.(viper.ConfigFileNotFoundError); !ok {
+			return nil, err // Erreur de lecture autre que fichier non trouvé
+		}
+		// Fichier non trouvé, on utilisera les valeurs par défaut/env vars
+	}
+
+	// Lire aussi les variables d'environnement (ex: DQMP_NETWORK_LISTEN=:4243)
+	v.SetEnvPrefix("DQMP")
+	v.SetEnvKeyReplacer(strings.NewReplacer(".", "_"))
+	v.AutomaticEnv()
+
+	// Unmarshal la configuration dans la struct
+	var cfg Config
+	if err := v.Unmarshal(&cfg); err != nil {
+		return nil, err
+	}
+
+	// Attention: ne pas faire ça en prod.
+	if cfg.Data.Directory == "./dqmp_node_data" && strings.Contains(cfg.Network.Listen, ":") {
+		parts := strings.Split(cfg.Network.Listen, ":")
+		if len(parts) == 2 && parts[1] != "" {
+			cfg.Data.Directory = fmt.Sprintf("./dqmp_node_data_%s", parts[1])
+		}
+	}
+
+	listenPort := ""
+	if strings.Contains(cfg.Network.Listen, ":") {
+		parts := strings.Split(cfg.Network.Listen, ":")
+		if len(parts) == 2 && parts[1] != "" {
+			listenPort = parts[1]
+		}
+	}
+
+	if listenPort != "" {
+		if cfg.Data.Directory == "./dqmp_node_data" {
+			cfg.Data.Directory = fmt.Sprintf("./dqmp_node_data_%s", listenPort)
+		}
+		// Générer un chemin d'identité unique basé sur le port DQMP
+		// Attention: si le port change, l'identité change! Mieux vaut chemin fixe.
+		// On le fait ici pour simplifier les tests locaux multiples.
+		if cfg.Discovery.IdentityPath == "dqmp_identity.key" {
+			cfg.Discovery.IdentityPath = fmt.Sprintf("dqmp_identity_%s.key", listenPort)
+		}
+	}
+
+	if !cfg.API.Enabled && cfg.API.Listen != "" {
+		log.Println("WARN: L'API est désactivée mais une adresse d'écoute est spécifiée.")
+		// cfg.API.Listen = "" // Optionnel: forcer l'adresse vide si désactivé
+	}
+	return &cfg, nil
+}
+
+// AddConfigFlag ajoute un flag --config au FlagSet de pflag
+func AddConfigFlag(fs *pflag.FlagSet) *string {
+	return fs.StringP("config", "c", "", "Path to configuration file (default: "+DefaultConfigPath+")")
+}
+
+/pkg\data\manager.go/
+// pkg/data/manager.go
+package data
+
+import (
+	"errors"
+	"fmt"
+	"log"
+	"os"
+	"path/filepath"
+	"sync"
+	"time"
+
+	bolt "go.etcd.io/bbolt"
+)
+
+const (
+	dbFileName    = "dqmp_data.db"
+	defaultBucket = "dqmp_shards"
+)
+
+// ErrNotFound est retourné quand une clé n'est pas trouvée.
+var ErrNotFound = errors.New("clé non trouvée")
+
+// Manager gère le stockage local des DataShards.
+type Manager struct {
+	db     *bolt.DB
+	dbPath string
+	mu     sync.RWMutex // Pour protéger l'accès concurrentiel si nécessaire (Bolt gère transactions)
+}
+
+// NewManager crée et initialise un nouveau Data Manager.
+func NewManager(dataDir string) (*Manager, error) {
+	if dataDir == "" {
+		dataDir = "." // Répertoire courant par défaut
+	}
+	// Créer le répertoire s'il n'existe pas
+	if err := os.MkdirAll(dataDir, 0750); err != nil {
+		return nil, fmt.Errorf("impossible de créer le répertoire de données '%s': %w", dataDir, err)
+	}
+
+	dbPath := filepath.Join(dataDir, dbFileName)
+	log.Printf("DATA: Initialisation du stockage local sur %s\n", dbPath)
+
+	// Ouvrir la base BoltDB
+	db, err := bolt.Open(dbPath, 0600, &bolt.Options{Timeout: 1 * time.Second})
+	if err != nil {
+		return nil, fmt.Errorf("impossible d'ouvrir la base de données BoltDB '%s': %w", dbPath, err)
+	}
+
+	// S'assurer que le bucket par défaut existe
+	err = db.Update(func(tx *bolt.Tx) error {
+		_, err := tx.CreateBucketIfNotExists([]byte(defaultBucket))
+		if err != nil {
+			return fmt.Errorf("impossible de créer le bucket '%s': %w", defaultBucket, err)
+		}
+		return nil
+	})
+	if err != nil {
+		db.Close() // Fermer la DB si la création du bucket échoue
+		return nil, err
+	}
+
+	log.Println("DATA: Stockage local initialisé avec succès.")
+	return &Manager{
+		db:     db,
+		dbPath: dbPath,
+	}, nil
+}
+
+// Close ferme proprement la base de données BoltDB.
+func (m *Manager) Close() error {
+	if m.db != nil {
+		log.Println("DATA: Fermeture du stockage local...")
+		return m.db.Close()
+	}
+	return nil
+}
+
+// Put stocke un payload sous une clé donnée.
+// Remplace la valeur si la clé existe déjà.
+func (m *Manager) Put(key string, payload []byte) error {
+	shard, err := NewDataShard(payload)
+	if err != nil {
+		return fmt.Errorf("erreur création shard: %w", err)
+	}
+
+	shardBytes, err := shard.MarshalBinary()
+	if err != nil {
+		return fmt.Errorf("erreur sérialisation shard: %w", err)
+	}
+
+	err = m.db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(defaultBucket))
+		if b == nil {
+			// Ne devrait pas arriver car on le crée à l'init
+			return errors.New("bucket par défaut non trouvé")
+		}
+		return b.Put([]byte(key), shardBytes)
+	})
+
+	if err == nil {
+		log.Printf("DATA: Donnée stockée pour la clé '%s' (%d octets payload)\n", key, len(payload))
+	} else {
+		log.Printf("DATA: Échec stockage clé '%s': %v\n", key, err)
+	}
+	return err
+}
+
+// Get récupère le payload associé à une clé.
+// Retourne ErrNotFound si la clé n'existe pas.
+func (m *Manager) Get(key string) ([]byte, error) {
+	var shardBytes []byte
+
+	err := m.db.View(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(defaultBucket))
+		if b == nil {
+			return errors.New("bucket par défaut non trouvé")
+		}
+		val := b.Get([]byte(key))
+		if val == nil {
+			return ErrNotFound // Clé non trouvée
+		}
+		// Copier la valeur car elle n'est valide que pendant la transaction View
+		shardBytes = make([]byte, len(val))
+		copy(shardBytes, val)
+		return nil
+	})
+
+	if err != nil {
+		if err != ErrNotFound {
+			log.Printf("DATA: Échec lecture clé '%s': %v\n", key, err)
+		}
+		return nil, err
+	}
+
+	// Désérialiser et vérifier le shard
+	var shard DataShard
+	if err := shard.UnmarshalBinary(shardBytes); err != nil {
+		log.Printf("DATA: Échec désérialisation/vérification clé '%s': %v\n", key, err)
+		// Que faire ? Retourner une erreur spécifique ? Supprimer la donnée corrompue ?
+		// Pour l'instant, on retourne l'erreur.
+		return nil, fmt.Errorf("donnée corrompue pour la clé '%s': %w", key, err)
+	}
+
+	log.Printf("DATA: Donnée récupérée pour la clé '%s' (%d octets payload)\n", key, len(shard.Payload))
+	return shard.Payload, nil
+}
+
+// Delete supprime une clé et sa valeur associée.
+// Ne retourne pas d'erreur si la clé n'existe pas.
+func (m *Manager) Delete(key string) error {
+	err := m.db.Update(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(defaultBucket))
+		if b == nil {
+			return errors.New("bucket par défaut non trouvé")
+		}
+		// BoltDB Delete ne retourne pas d'erreur si la clé n'existe pas
+		return b.Delete([]byte(key))
+	})
+
+	if err == nil {
+		log.Printf("DATA: Donnée supprimée pour la clé '%s'\n", key)
+	} else {
+		log.Printf("DATA: Échec suppression clé '%s': %v\n", key, err)
+	}
+	return err
+}
+
+// ListKeys liste toutes les clés présentes dans le bucket.
+// Attention: peut être coûteux sur de grandes bases.
+func (m *Manager) ListKeys() ([]string, error) {
+	var keys []string
+	err := m.db.View(func(tx *bolt.Tx) error {
+		b := tx.Bucket([]byte(defaultBucket))
+		if b == nil {
+			return errors.New("bucket par défaut non trouvé")
+		}
+		return b.ForEach(func(k, v []byte) error {
+			keys = append(keys, string(k))
+			return nil // Continue l'itération
+		})
+	})
+	if err != nil {
+		log.Printf("DATA: Erreur lors du listage des clés: %v", err)
+		return nil, err
+	}
+	log.Printf("DATA: %d clés listées depuis le stockage.\n", len(keys))
+	return keys, nil
+}
+
+// TODO: Ajouter des méthodes pour gérer les métadonnées (Merkle, Energy Sig)
+// TODO: Gérer la réplication (ERAS) - nécessitera interaction avec PeerManager/Transport
+
+/pkg\data\shard.go/
+// pkg/data/shard.go
+package data
+
+import (
+	"bytes"
+	"crypto/sha256" // Utiliser SHA256 standard, SHA3 peut être ajouté plus tard
+	"encoding/binary"
+	"encoding/gob"
+	"errors"
+	"fmt"
+	"io"
+	"log"
+	"time"
+	// "golang.org/x/crypto/sha3" // Pour utiliser SHA3 plus tard si besoin
+	// Pour EdDSA, on aura besoin d'une lib crypto, ex: "crypto/ed25519"
+)
+
+const (
+	MetadataSize   = 16                                            // Taille fixe des métadonnées comme dans la spec
+	IntegritySize  = 32                                            // SHA256 checksum pour l'instant
+	MaxPayloadSize = 240                                           // Taille max du payload comme dans la spec
+	TotalShardSize = MetadataSize + MaxPayloadSize + IntegritySize // Taille totale max
+
+	// TODO: EdDSA signature size (64 bytes) to be added/handled
+)
+
+// Metadata contient les informations sur le shard.
+// Simplifié pour l'instant (pas de Merkle Root ou Energy Sig).
+type Metadata struct {
+	Timestamp  int64  // Timestamp en nanosecondes (uint64)
+	PayloadLen uint16 // Longueur réelle du payload (< MaxPayloadSize)
+	// Reserved pour Merkle Root, Energy Sig, etc.
+	Reserved [6]byte // Padding pour atteindre 16 octets (8 + 2 + 6)
+}
+
+// DataShard représente l'unité de stockage.
+type DataShard struct {
+	Meta    Metadata
+	Payload []byte // Taille variable jusqu'à MaxPayloadSize
+	// Checksum pour vérifier l'intégrité (SHA256(Meta+Payload))
+	// Le champ Integrity de la spec est utilisé ici comme checksum.
+}
+
+// NewDataShard crée un nouveau shard avec le payload donné.
+func NewDataShard(payload []byte) (*DataShard, error) {
+	if len(payload) > MaxPayloadSize {
+		return nil, errors.New("payload size exceeds maximum limit")
+	}
+
+	shard := &DataShard{
+		Meta: Metadata{
+			Timestamp:  time.Now().UnixNano(),
+			PayloadLen: uint16(len(payload)),
+		},
+		Payload: make([]byte, len(payload)),
+	}
+	copy(shard.Payload, payload) // Copier le payload
+
+	return shard, nil
+}
+
+// calculateChecksum calcule le checksum SHA256 sur les métadonnées et le payload.
+func (ds *DataShard) calculateChecksum() ([IntegritySize]byte, error) {
+	metaBytes, err := ds.Meta.MarshalBinary()
+	if err != nil {
+		return [IntegritySize]byte{}, err
+	}
+	// Concaténer Meta et Payload
+	dataToHash := append(metaBytes, ds.Payload...)
+	return sha256.Sum256(dataToHash), nil
+}
+
+// MarshalBinary sérialise le DataShard complet (Meta + Payload + Checksum) en []byte.
+func (ds *DataShard) MarshalBinary() ([]byte, error) {
+	buf := new(bytes.Buffer)
+
+	// 1. Sérialiser les métadonnées
+	metaBytes, err := ds.Meta.MarshalBinary()
+	if err != nil {
+		return nil, err
+	}
+	buf.Write(metaBytes)
+
+	// 2. Écrire le payload (taille réelle)
+	buf.Write(ds.Payload)
+
+	// 3. Calculer et ajouter le checksum
+	checksum, err := ds.calculateChecksum()
+	if err != nil {
+		return nil, err
+	}
+	buf.Write(checksum[:])
+
+	// Vérifier la taille totale (optionnel)
+	// totalLen := len(metaBytes) + len(ds.Payload) + IntegritySize
+	// if buf.Len() != totalLen {
+	//     return nil, fmt.Errorf("taille marshalée inattendue: %d vs %d", buf.Len(), totalLen)
+	// }
+
+	return buf.Bytes(), nil
+}
+
+// UnmarshalBinary désérialise un []byte en DataShard et vérifie l'intégrité.
+func (ds *DataShard) UnmarshalBinary(data []byte) error {
+	if len(data) < MetadataSize+IntegritySize {
+		return errors.New("données trop courtes pour être un DataShard valide (manque meta/checksum)")
+	}
+
+	buf := bytes.NewReader(data)
+
+	// 1. Lire et désérialiser les métadonnées
+	metaBytes := make([]byte, MetadataSize)
+	if _, err := io.ReadFull(buf, metaBytes); err != nil {
+		return fmt.Errorf("erreur lecture métadonnées: %w", err)
+	}
+	if err := ds.Meta.UnmarshalBinary(metaBytes); err != nil {
+		return fmt.Errorf("erreur unmarshal métadonnées: %w", err)
+	}
+
+	// 2. Déterminer la taille du payload et lire le payload
+	payloadLen := int(ds.Meta.PayloadLen)
+	if payloadLen > MaxPayloadSize {
+		return fmt.Errorf("longueur payload invalide dans métadonnées: %d", payloadLen)
+	}
+	// Vérifier si la taille restante est suffisante
+	expectedRemaining := payloadLen + IntegritySize
+	if buf.Len() < expectedRemaining {
+		return fmt.Errorf("données insuffisantes pour payload (%d) et checksum (%d), reste: %d", payloadLen, IntegritySize, buf.Len())
+	}
+
+	ds.Payload = make([]byte, payloadLen)
+	if _, err := io.ReadFull(buf, ds.Payload); err != nil {
+		return fmt.Errorf("erreur lecture payload: %w", err)
+	}
+
+	// 3. Lire le checksum fourni
+	providedChecksum := make([]byte, IntegritySize)
+	if _, err := io.ReadFull(buf, providedChecksum); err != nil {
+		return fmt.Errorf("erreur lecture checksum: %w", err)
+	}
+
+	// 4. Calculer le checksum attendu et comparer
+	expectedChecksum, err := ds.calculateChecksum()
+	if err != nil {
+		return fmt.Errorf("erreur calcul checksum attendu: %w", err)
+	}
+
+	if !bytes.Equal(providedChecksum, expectedChecksum[:]) {
+		return errors.New("vérification du checksum échouée")
+	}
+
+	// Vérifier s'il reste des données (ne devrait pas si le format est respecté)
+	if buf.Len() > 0 {
+		log.Printf("WARN: Données supplémentaires (%d octets) après désérialisation du shard.\n", buf.Len())
+	}
+
+	return nil
+}
+
+// --- Méthodes pour Metadata ---
+
+// MarshalBinary sérialise Metadata en []byte (taille fixe MetadataSize).
+func (m *Metadata) MarshalBinary() ([]byte, error) {
+	buf := new(bytes.Buffer)
+	if err := binary.Write(buf, binary.LittleEndian, m.Timestamp); err != nil {
+		return nil, err
+	}
+	if err := binary.Write(buf, binary.LittleEndian, m.PayloadLen); err != nil {
+		return nil, err
+	}
+	if err := binary.Write(buf, binary.LittleEndian, m.Reserved); err != nil {
+		return nil, err
+	}
+
+	if buf.Len() != MetadataSize {
+		return nil, fmt.Errorf("taille metadata marshalée inattendue: %d vs %d", buf.Len(), MetadataSize)
+	}
+	return buf.Bytes(), nil
+}
+
+// UnmarshalBinary désérialise []byte en Metadata.
+func (m *Metadata) UnmarshalBinary(data []byte) error {
+	if len(data) != MetadataSize {
+		return errors.New("taille incorrecte pour les métadonnées")
+	}
+	buf := bytes.NewReader(data)
+	if err := binary.Read(buf, binary.LittleEndian, &m.Timestamp); err != nil {
+		return err
+	}
+	if err := binary.Read(buf, binary.LittleEndian, &m.PayloadLen); err != nil {
+		return err
+	}
+	if err := binary.Read(buf, binary.LittleEndian, &m.Reserved); err != nil {
+		return err
+	}
+	return nil
+}
+
+// Helper pour l'import/export rapide (à mettre ailleurs plus tard)
+func marshal(v interface{}) ([]byte, error) {
+	var buf bytes.Buffer
+	enc := gob.NewEncoder(&buf)
+	if err := enc.Encode(v); err != nil {
+		return nil, err
+	}
+	return buf.Bytes(), nil
+}
+
+func unmarshal(data []byte, v interface{}) error {
+	buf := bytes.NewBuffer(data)
+	dec := gob.NewDecoder(buf)
+	return dec.Decode(v)
+}
+
+/pkg\dqmp\node.go/
+// pkg/dqmp/node.go
+package dqmp
+
+import (
+	"bufio"
+	"context"
+	"encoding/gob"
+	"errors"
+	"fmt"
+	"io"
+	"io/ioutil"
+	"strconv"
+
+	"log"
+	"net"
+	"os"
+	"os/signal"
+	"strings"
+	"sync"
+	"syscall"
+	"time"
+
+	"github.com/bradanzie/dqmp/pkg/api"
+	"github.com/bradanzie/dqmp/pkg/config"
+	"github.com/bradanzie/dqmp/pkg/data"
+	"github.com/bradanzie/dqmp/pkg/peers"     // Importer peers
+	"github.com/bradanzie/dqmp/pkg/transport" //"github.com/bradanzie/dqmp/pkg/api"
+	"github.com/libp2p/go-libp2p"
+	dht "github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/libp2p/go-libp2p/core/crypto"
+	"github.com/libp2p/go-libp2p/core/host"
+	"github.com/libp2p/go-libp2p/core/network"
+	"github.com/libp2p/go-libp2p/core/peer"
+	"github.com/libp2p/go-libp2p/core/protocol"
+	"github.com/libp2p/go-libp2p/p2p/discovery/routing"
+	discovery "github.com/libp2p/go-libp2p/p2p/discovery/routing"
+	ma "github.com/multiformats/go-multiaddr"
+	"github.com/quic-go/quic-go"
+)
+
+const NodeVersion = "0.1.0-dev" // Définir une version simple
+const (
+	DQMPAddrProtocolID     = protocol.ID("/dqmp/addr-exchange/1.0.0") // Sur libp2p transport
+	DQMPIdentifyProtocolID = protocol.ID("/dqmp/identify/1.0.0")      // Sur DQMP transport
+)
+const MaxReplicas = 3 // Nombre maximum de pairs vers qui répliquer
+
+const (
+	pingTimeout           = 5 * time.Second
+	pingStreamMsg         = "PING"
+	pongStreamMsg         = "PONG"
+	controlStreamProto    = "dqmp/control/ping/1.0" // Exemple de proto pour stream de contrôle
+	replicateStreamPrefix = "REPLICATE"
+)
+
+// Node représente une instance DQMP
+type Node struct {
+	config      *config.Config
+	listener    *quic.Listener
+	peerManager *peers.Manager // Ajouter le peer manager
+	apiServer   *api.Server
+	dataManager *data.Manager
+	startTime   time.Time
+	p2pHost     host.Host    // Le Host libp2p
+	kadDHT      *dht.IpfsDHT // Le DHT Kademlia
+	// discovery   *drouting.RoutingDiscovery // Helper pour l'annonce/découverte DHT
+	stopChan chan struct{}
+	wg       sync.WaitGroup // Pour attendre les goroutines
+}
+
+// loadOrCreateIdentity charge une clé privée libp2p ou en crée une nouvelle.
+func loadOrCreateIdentity(idPath string) (crypto.PrivKey, error) {
+	if _, err := os.Stat(idPath); err == nil {
+		// Le fichier existe, le lire
+		privBytes, err := ioutil.ReadFile(idPath)
+		if err != nil {
+			return nil, fmt.Errorf("erreur lecture fichier identité '%s': %w", idPath, err)
+		}
+		privKey, err := crypto.UnmarshalPrivateKey(privBytes)
+		if err != nil {
+			return nil, fmt.Errorf("erreur unmarshal clé privée depuis '%s': %w", idPath, err)
+		}
+		log.Printf("DISCOVERY: Identité libp2p chargée depuis %s\n", idPath)
+		return privKey, nil
+	} else if errors.Is(err, os.ErrNotExist) {
+		// Le fichier n'existe pas, en créer un nouveau
+		log.Printf("DISCOVERY: Aucune identité trouvée à '%s', génération d'une nouvelle...\n", idPath)
+		// Utilise Ed25519 par défaut (bon choix)
+		privKey, _, err := crypto.GenerateKeyPair(crypto.Ed25519, -1)
+		if err != nil {
+			return nil, fmt.Errorf("erreur génération clé privée: %w", err)
+		}
+
+		// Sauvegarder la nouvelle clé
+		privBytes, err := crypto.MarshalPrivateKey(privKey)
+		if err != nil {
+			return nil, fmt.Errorf("erreur marshal clé privée: %w", err)
+		}
+		if err := ioutil.WriteFile(idPath, privBytes, 0600); err != nil { // 0600 = read/write pour user seulement
+			return nil, fmt.Errorf("erreur écriture fichier identité '%s': %w", idPath, err)
+		}
+		log.Printf("DISCOVERY: Nouvelle identité libp2p sauvegardée dans %s\n", idPath)
+		return privKey, nil
+	} else {
+		// Autre erreur lors de Stat
+		return nil, fmt.Errorf("erreur vérification fichier identité '%s': %w", idPath, err)
+	}
+}
+
+// NewNode crée une nouvelle instance de nœud DQMP
+func NewNode(cfg *config.Config) (*Node, error) {
+	startTime := time.Now()
+
+	// --- Initialisation Libp2p ---
+	privKey, err := loadOrCreateIdentity(cfg.Discovery.IdentityPath)
+	if err != nil {
+		return nil, fmt.Errorf("échec gestion identité libp2p: %w", err)
+	}
+
+	// --- Préparer les relais statiques à partir des bootstrappers par défaut ---
+	// 1. Obtenir les multiadresses des bootstrappers par défaut
+	bootstrapPeersMA := dht.DefaultBootstrapPeers
+	if len(cfg.Discovery.BootstrapPeers) > 0 { // Si l'utilisateur a défini ses propres bootstrappers
+		log.Println("DISCOVERY: Utilisation des bootstrap peers définis par l'utilisateur comme relais statiques potentiels.")
+		// Convertir les strings de la config en multiaddr
+		customPeersMA := make([]ma.Multiaddr, 0, len(cfg.Discovery.BootstrapPeers))
+		for _, addrStr := range cfg.Discovery.BootstrapPeers {
+			maddr, errM := ma.NewMultiaddr(addrStr)
+			if errM != nil {
+				log.Printf("WARN: Ignorer l'adresse bootstrap invalide '%s' pour les relais statiques: %v", addrStr, errM)
+				continue
+			}
+			customPeersMA = append(customPeersMA, maddr)
+		}
+		if len(customPeersMA) > 0 {
+			bootstrapPeersMA = customPeersMA // Utiliser ceux de la config s'ils sont valides
+		} else {
+			log.Println("WARN: Aucun bootstrap peer valide trouvé dans la config, retour aux relais par défaut.")
+			// Garder dht.DefaultBootstrapPeers
+		}
+	}
+
+	// 2. Convertir les multiadresses en peer.AddrInfo
+	defaultStaticRelays := make([]peer.AddrInfo, 0, len(bootstrapPeersMA))
+	for _, maddr := range bootstrapPeersMA {
+		pi, err := peer.AddrInfoFromP2pAddr(maddr)
+		if err != nil {
+			log.Printf("WARN: Impossible de convertir le bootstrap multiaddr '%s' en AddrInfo pour relais: %v", maddr, err)
+			continue
+		}
+		defaultStaticRelays = append(defaultStaticRelays, *pi)
+	}
+	log.Printf("DISCOVERY: Utilisation de %d relais statiques potentiels (basés sur les bootstrap peers).\n", len(defaultStaticRelays))
+	if len(defaultStaticRelays) == 0 {
+		log.Println("WARN: Aucune information de relais statique utilisable trouvée!")
+		// AutoRelay pourrait ne pas fonctionner sans relais statiques ou découverts via PeerSource.
+	}
+	// ---------------------------------------------------------------------
+
+	// Créer le Host libp2p
+	log.Println("DISCOVERY: Création du Host libp2p...")
+	p2pHost, err := libp2p.New(
+		libp2p.Identity(privKey),
+		libp2p.ListenAddrStrings(cfg.Discovery.ListenAddrs...),
+		libp2p.AddrsFactory(func(addrs []ma.Multiaddr) []ma.Multiaddr { return addrs }),
+		libp2p.EnableRelay(),
+
+		// --- CORRECTION FINALE AUTORELAY ---
+		// Passer la liste des AddrInfo des bootstrap peers comme relais statiques.
+		libp2p.EnableAutoRelayWithStaticRelays(defaultStaticRelays),
+		// -----------------------------------
+
+		libp2p.EnableHolePunching(),
+		libp2p.DefaultSecurity,
+		libp2p.DefaultTransports,
+		libp2p.DefaultMuxers,
+		libp2p.EnableRelay(),
+		libp2p.EnableNATService(),
+	)
+	if err != nil {
+		return nil, fmt.Errorf("échec création Host libp2p: %w", err)
+	}
+	log.Printf("DISCOVERY: Host libp2p créé avec ID: %s\n", p2pHost.ID().String())
+	log.Println("DISCOVERY: Écoute libp2p sur:")
+	for _, addr := range p2pHost.Addrs() {
+		log.Printf("  - %s\n", addr.String())
+	}
+	// -----------------------------
+
+	// Initialiser PeerManager avec l'ID du host local
+	pm := peers.NewManager(p2pHost.ID())
+
+	// Initialiser DataManager
+	dm, err := data.NewManager(cfg.Data.Directory)
+	if err != nil {
+		p2pHost.Close() // Cleanup libp2p host
+		return nil, fmt.Errorf("échec initialisation DataManager: %w", err)
+	}
+
+	// Créer l'instance Node *avant* l'API Server pour pouvoir la passer
+	node := &Node{
+		config:      cfg,
+		peerManager: pm,
+		dataManager: dm,
+		p2pHost:     p2pHost,
+		startTime:   startTime,
+		stopChan:    make(chan struct{}),
+		// apiServer sera défini après
+	}
+
+	// Initialiser l'API Server en passant 'node' (qui implémente api.NodeReplicator)
+	node.apiServer = api.NewServer(&cfg.API, pm, dm, node, startTime, NodeVersion)
+
+	// Définir le handler pour l'échange d'adresse DQMP via libp2p
+	node.p2pHost.SetStreamHandler(DQMPAddrProtocolID, node.handleDQMPAddrRequest)
+
+	// Initialiser le DHT Kademlia
+	// Passer le contexte global pour l'initialisation, mais utiliser un contexte
+	// lié à la durée de vie du nœud pour les opérations continues.
+	if err := node.initDHT(context.Background()); err != nil {
+		// Cleanup
+		if node.apiServer != nil {
+			node.apiServer.Stop(context.Background())
+		} // Arrêt immédiat
+		if node.p2pHost != nil {
+			node.p2pHost.Close()
+		}
+		if node.dataManager != nil {
+			node.dataManager.Close()
+		}
+		return nil, fmt.Errorf("échec initialisation DHT: %w", err)
+	}
+
+	return node, nil
+}
+
+// handleDQMPAddrRequest est appelé quand un pair nous contacte via libp2p sur notre protocole.
+func (n *Node) handleDQMPAddrRequest(stream network.Stream) {
+	remotePeer := stream.Conn().RemotePeer()
+	log.Printf("ADDR_EXCHANGE: Requête d'adresse DQMP reçue de %s\n", remotePeer.ShortString())
+	defer stream.Close() // Fermer le stream à la fin
+
+	// Récupérer notre propre adresse d'écoute QUIC DQMP
+	if n.listener == nil {
+		log.Println("ADDR_EXCHANGE: Listener DQMP non prêt, impossible de répondre.")
+		// Envoyer une erreur ou fermer ?
+		stream.Reset() // Indique une erreur
+		return
+	}
+	dqmpAddr := n.listener.Addr().String()
+
+	// Envoyer l'adresse au pair distant
+	// Utiliser un format simple (juste l'adresse en string + newline)
+	_, err := stream.Write([]byte(dqmpAddr + "\n"))
+	if err != nil {
+		log.Printf("ADDR_EXCHANGE: Erreur envoi adresse DQMP à %s: %v\n", remotePeer.ShortString(), err)
+		stream.Reset()
+		return
+	}
+	log.Printf("ADDR_EXCHANGE: Adresse DQMP (%s) envoyée à %s\n", dqmpAddr, remotePeer.ShortString())
+}
+
+// initDHT initialise le DHT Kademlia
+func (n *Node) initDHT(ctx context.Context) error {
+	log.Println("DISCOVERY: Initialisation du DHT Kademlia...")
+
+	// Options pour le DHT (mode serveur par défaut)
+	dhtOptions := []dht.Option{
+		dht.Mode(dht.ModeServer), // Important pour participer au réseau
+		// dht.BootstrapPeers(n.libp2pBootstrapPeers()...), // On fera le bootstrap séparément
+	}
+
+	// Créer une instance DHT
+	var err error
+	n.kadDHT, err = dht.New(ctx, n.p2pHost, dhtOptions...)
+	if err != nil {
+		return fmt.Errorf("échec création instance DHT: %w", err)
+	}
+
+	// Lancer le bootstrap du DHT (connexion aux pairs initiaux)
+	log.Println("DISCOVERY: Lancement du bootstrap DHT...")
+	if err = n.kadDHT.Bootstrap(ctx); err != nil {
+		n.kadDHT.Close() // Fermer le DHT si bootstrap échoue
+		return fmt.Errorf("échec bootstrap DHT: %w", err)
+	}
+
+	// Connexion explicite aux bootstrap peers de la config
+	// (Bootstrap peut être lent, on force la connexion)
+	bootstrapPeers := n.libp2pBootstrapPeers()
+	if len(bootstrapPeers) > 0 {
+		log.Printf("DISCOVERY: Connexion explicite à %d bootstrap peers libp2p...\n", len(bootstrapPeers))
+		var wgBoot sync.WaitGroup
+		for _, pinfo := range bootstrapPeers {
+			wgBoot.Add(1)
+			go func(pi peer.AddrInfo) {
+				defer wgBoot.Done()
+				ctxBoot, cancel := context.WithTimeout(ctx, 15*time.Second) // Timeout connexion bootstrap
+				defer cancel()
+				if err := n.p2pHost.Connect(ctxBoot, pi); err != nil {
+					log.Printf("DISCOVERY: Échec connexion bootstrap %s: %v\n", pi.ID, err)
+				} else {
+					log.Printf("DISCOVERY: Connecté au bootstrap peer %s\n", pi.ID)
+				}
+			}(pinfo)
+		}
+		wgBoot.Wait()
+		log.Println("DISCOVERY: Connexions bootstrap terminées.")
+	} else {
+		log.Println("WARN: Aucun bootstrap peer libp2p configuré.")
+	}
+
+	log.Println("DISCOVERY: DHT Kademlia initialisé.")
+	return nil
+}
+
+// libp2pBootstrapPeers convertit les strings multiaddr de la config en AddrInfo.
+func (n *Node) libp2pBootstrapPeers() []peer.AddrInfo {
+	peers := make([]peer.AddrInfo, 0, len(n.config.Discovery.BootstrapPeers))
+	for _, addrStr := range n.config.Discovery.BootstrapPeers {
+		if addrStr == "" {
+			continue
+		}
+		addr, err := ma.NewMultiaddr(addrStr)
+		if err != nil {
+			log.Printf("WARN: Adresse bootstrap libp2p invalide '%s': %v\n", addrStr, err)
+			continue
+		}
+		pi, err := peer.AddrInfoFromP2pAddr(addr)
+		if err != nil {
+			log.Printf("WARN: Impossible d'extraire AddrInfo de '%s': %v\n", addrStr, err)
+			continue
+		}
+		peers = append(peers, *pi)
+	}
+	return peers
+}
+
+// Start démarre le nœud DQMP
+func (n *Node) Start() error {
+	log.Printf("INFO: Démarrage du nœud DQMP v%s sur %s...\n", NodeVersion, n.config.Network.Listen)
+	n.startTime = time.Now()
+
+	listener, err := transport.Listen(n.config.Network.Listen)
+	if err != nil {
+		log.Printf("ERROR: Échec du démarrage du listener QUIC: %v\n", err)
+		return err
+	}
+	n.listener = listener
+	log.Printf("INFO: Écoute QUIC démarrée sur %s\n", n.listener.Addr().String())
+
+	// Démarrer le serveur API si configuré
+	if n.apiServer != nil {
+		if err := n.apiServer.Start(); err != nil {
+			log.Printf("ERROR: Échec du démarrage du serveur API: %v\n", err)
+			// Décider si c'est une erreur fatale ou non
+			// return err // Arrêter le nœud si l'API ne démarre pas ? Ou juste logguer ?
+			// Pour l'instant, on loggue mais on continue.
+		}
+	}
+
+	n.wg.Add(1) // Pour la boucle acceptConnections
+	go n.acceptConnections()
+
+	n.wg.Add(1)
+	go n.runDiscovery()
+
+	log.Println("INFO: Nœud DQMP démarré avec succès.")
+	return nil
+}
+
+// runDiscovery gère l'annonce et la recherche périodique de pairs DQMP via le DHT libp2p.
+func (n *Node) runDiscovery() {
+	defer n.wg.Done()
+
+	// Créer le helper pour la découverte basée sur le routage DHT
+	routingDiscovery := routing.NewRoutingDiscovery(n.kadDHT)
+
+	// Tickers pour l'annonce et la découverte périodiques
+	// Annoncer un peu plus souvent que chercher peut aider à maintenir la présence
+	announceInterval := n.config.Discovery.DiscoveryInterval / 2
+	if announceInterval < 15*time.Second { // Minimum raisonnable
+		announceInterval = 15 * time.Second
+	}
+	announceTicker := time.NewTicker(announceInterval)
+	defer announceTicker.Stop()
+
+	discoveryInterval := n.config.Discovery.DiscoveryInterval
+	if discoveryInterval < 30*time.Second { // Minimum raisonnable
+		discoveryInterval = 30 * time.Second
+	}
+	discoveryTicker := time.NewTicker(discoveryInterval)
+	defer discoveryTicker.Stop()
+
+	log.Printf("DISCOVERY: Lancement de l'annonce et de la découverte DHT (Rendezvous: %s, Announce Interval: %v, Discovery Interval: %v)\n",
+		n.config.Discovery.Rendezvous, announceInterval, discoveryInterval)
+
+	// Contexte lié à la durée de vie de cette goroutine/du nœud
+	ctx, cancel := context.WithCancel(context.Background())
+	go func() {
+		<-n.stopChan // Attend le signal d'arrêt du nœud
+		cancel()     // Annule le contexte de découverte
+	}()
+	defer cancel() // S'assurer que cancel est appelé à la fin de runDiscovery
+
+	// Annonce initiale
+	n.performDHTAdvertise(ctx, routingDiscovery)
+
+	// Délai initial pour laisser le temps au DHT et à AutoRelay de se stabiliser un peu
+	initialDelay := 10 * time.Second // Augmenté un peu
+	log.Printf("DISCOVERY: Attente initiale de %v pour stabilisation DHT/Relais...\n", initialDelay)
+	select {
+	case <-time.After(initialDelay):
+		// Continuer après le délai
+	case <-n.stopChan:
+		log.Println("DISCOVERY: Arrêt pendant l'attente initiale.")
+		return
+	case <-ctx.Done(): // Contexte annulé pendant l'attente
+		log.Println("DISCOVERY: Contexte annulé pendant l'attente initiale.")
+		return
+	}
+	log.Println("DISCOVERY: Fin attente initiale, lancement première recherche.")
+
+	// Découverte initiale
+	n.performDHTFindPeers(ctx, routingDiscovery)
+
+	// Boucle principale des tickers
+	for {
+		select {
+		case <-announceTicker.C:
+			n.performDHTAdvertise(ctx, routingDiscovery)
+		case <-discoveryTicker.C:
+			n.performDHTFindPeers(ctx, routingDiscovery)
+		case <-n.stopChan:
+			log.Println("DISCOVERY: Arrêt de la découverte DHT.")
+			return
+		case <-ctx.Done(): // Si le contexte est annulé pour une autre raison
+			log.Println("DISCOVERY: Contexte de découverte annulé, arrêt.")
+			return
+		}
+	}
+}
+
+// performDHTAdvertise annonce notre présence dans le DHT.
+func (n *Node) performDHTAdvertise(ctx context.Context, routingDiscovery *discovery.RoutingDiscovery) {
+	log.Printf("DISCOVERY: Annonce de notre présence pour '%s'...\n", n.config.Discovery.Rendezvous)
+	// Annoncer notre adresse QUIC DQMP? Pour l'instant, on annonce juste notre PeerID.
+	// Les autres devront nous trouver et ensuite potentiellement nous demander notre adresse DQMP
+	// via un protocole libp2p dédié, ou on pourrait la stocker dans le DHT (plus complexe).
+	// ttl, err := dutil.Advertise(ctx, routingDiscovery, n.config.Discovery.Rendezvous) // Annonce le Host courant
+	ttl, err := routingDiscovery.Advertise(ctx, n.config.Discovery.Rendezvous) // Annonce le Host courant
+
+	if err != nil {
+		log.Printf("DISCOVERY: Erreur lors de l'annonce DHT: %v\n", err)
+	} else {
+		log.Printf("DISCOVERY: Annonce réussie (TTL estimé: %v)\n", ttl)
+	}
+}
+
+// performDHTFindPeers recherche d'autres pairs DQMP dans le DHT.
+func (n *Node) performDHTFindPeers(ctx context.Context, routingDiscovery *routing.RoutingDiscovery) {
+	log.Printf("DISCOVERY: Recherche de pairs pour '%s'...\n", n.config.Discovery.Rendezvous)
+
+	// Utiliser le contexte de la goroutine runDiscovery qui sera annulé à l'arrêt
+	findCtx, cancel := context.WithCancel(ctx)
+	defer cancel() // Annuler ce contexte spécifique si la fonction se termine prématurément
+
+	peerChan, err := routingDiscovery.FindPeers(findCtx, n.config.Discovery.Rendezvous)
+	if err != nil {
+		// Vérifier si l'erreur est due à l'annulation du contexte parent
+		if errors.Is(err, context.Canceled) || errors.Is(err, context.DeadlineExceeded) {
+			log.Printf("DISCOVERY: Recherche DHT annulée ou timeout: %v\n", err)
+		} else {
+			log.Printf("DISCOVERY: Erreur lors du lancement de la recherche DHT: %v\n", err)
+		}
+		return
+	}
+
+	foundCount := 0
+	processedPeers := make(map[peer.ID]bool)
+
+	for peerInfo := range peerChan { // Boucle jusqu'à ce que le canal soit fermé ou le contexte annulé
+		// Vérifier si le contexte a été annulé pendant l'itération
+		if findCtx.Err() != nil {
+			log.Printf("DISCOVERY: Contexte annulé pendant la réception des pairs trouvés (%v).\n", findCtx.Err())
+			break // Sortir de la boucle for
+		}
+
+		// Ignorer soi-même
+		if peerInfo.ID == n.p2pHost.ID() {
+			continue
+		}
+
+		// Éviter de traiter le même pair plusieurs fois par recherche
+		if processedPeers[peerInfo.ID] {
+			continue
+		}
+		processedPeers[peerInfo.ID] = true
+
+		// Vérifier si des adresses ont été trouvées
+		if len(peerInfo.Addrs) == 0 {
+			log.Printf("DISCOVERY: Pair %s trouvé sans adresse joignable via DHT, ignoré pour connexion directe.\n", peerInfo.ID.ShortString())
+			// Ajouter/Mettre à jour dans PeerManager comme 'Discovered' même sans adresse
+			n.peerManager.AddOrUpdateDiscoveredPeer(peerInfo)
+			continue // Passer au pair suivant
+		}
+
+		// Si on arrive ici, on a trouvé un pair avec des adresses
+		foundCount++
+		log.Printf("DISCOVERY: Pair trouvé via DHT: %s (%d addrs)\n", peerInfo.ID.ShortString(), len(peerInfo.Addrs))
+		// for _, addr := range peerInfo.Addrs { // Log debug des adresses
+		// 	log.Printf("  - Addr: %s", addr)
+		// }
+
+		// Mettre à jour/Ajouter le pair dans le manager
+		n.peerManager.AddOrUpdateDiscoveredPeer(peerInfo)
+
+		// Vérifier l'état actuel avant de tenter la connexion
+		p, exists := n.peerManager.GetPeer(peerInfo.ID)
+		// Tenter connexion si découvert ou échoué précédemment, et si une connexion n'est pas déjà en cours/active
+		if exists && (p.State == peers.StateDiscovered || p.State == peers.StateFailed) {
+			log.Printf("DISCOVERY: Tentative de connexion vers %s (état: %s)\n", p.ID.ShortString(), p.State)
+			n.wg.Add(1)
+			// Passer le contexte de runDiscovery (ctx) qui gère l'arrêt du nœud
+			go n.requestDQMPAddrAndConnect(ctx, peerInfo)
+		} else if exists {
+			// log.Printf("DISCOVERY: Connexion vers %s non tentée (état: %s)\n", p.ID.ShortString(), p.State)
+		} else {
+			// Ne devrait pas arriver si AddOrUpdate a fonctionné
+			log.Printf("WARN: Pair %s non trouvé dans le manager juste après découverte?\n", peerInfo.ID.ShortString())
+		}
+	} // Fin de la boucle for range peerChan
+
+	// Le canal est fermé ou le contexte est annulé
+	if findCtx.Err() == nil { // Si on n'est pas sorti à cause d'une annulation
+		if foundCount == 0 {
+			log.Printf("DISCOVERY: Aucun nouveau pair joignable trouvé pour '%s'.\n", n.config.Discovery.Rendezvous)
+		} else {
+			log.Printf("DISCOVERY: Recherche terminée, %d pair(s) avec adresses traité(s).\n", foundCount)
+		}
+	}
+}
+
+// requestDQMPAddrAndConnect contacte un pair libp2p pour obtenir son adresse DQMP
+// et tente ensuite de s'y connecter avec notre stack QUIC DQMP.
+func (n *Node) requestDQMPAddrAndConnect(ctx context.Context, peerInfo peer.AddrInfo) {
+	defer n.wg.Done() // Assurer que le waitgroup est décrémenté
+
+	remotePeerID := peerInfo.ID
+	// Marquer comme Connecting AVANT d'ouvrir le stream libp2p
+	// On n'a pas encore l'adresse DQMP, on la mettra à jour plus tard
+	_, err := n.peerManager.SetPeerConnecting(remotePeerID, nil)
+	if err != nil {
+		log.Printf("ADDR_EXCHANGE: Erreur lors du marquage de %s comme Connecting: %v\n", remotePeerID.ShortString(), err)
+		// Que faire ? Continuer quand même ? Probablement oui.
+	}
+
+	log.Printf("ADDR_EXCHANGE: Tentative d'obtention de l'adresse DQMP de %s\n", remotePeerID.ShortString())
+	reqCtx, cancel := context.WithTimeout(ctx, 15*time.Second)
+	defer cancel()
+
+	stream, err := n.p2pHost.NewStream(reqCtx, remotePeerID, DQMPAddrProtocolID)
+	if err != nil {
+		log.Printf("ADDR_EXCHANGE: Échec ouverture stream vers %s: %v\n", remotePeerID.ShortString(), err)
+		n.peerManager.SetPeerDisconnected(remotePeerID, fmt.Errorf("échec ouverture stream addr-exchange: %w", err))
+		return
+	}
+	defer stream.Close()
+
+	// Lire la réponse (l'adresse DQMP)
+	reader := bufio.NewReader(stream)
+	dqmpAddrStr, err := reader.ReadString('\n')
+	if err != nil {
+		log.Printf("ADDR_EXCHANGE: Échec lecture réponse de %s: %v\n", remotePeerID.ShortString(), err)
+		n.peerManager.SetPeerDisconnected(remotePeerID, fmt.Errorf("échec lecture stream addr-exchange: %w", err))
+		return
+	}
+
+	dqmpAddrStr = strings.TrimSpace(dqmpAddrStr)
+	if dqmpAddrStr == "" {
+		log.Printf("ADDR_EXCHANGE: Réponse vide reçue de %s.\n", remotePeerID.ShortString())
+		return
+	}
+
+	log.Printf("ADDR_EXCHANGE: Adresse DQMP reçue de %s: %s\n", remotePeerID.ShortString(), dqmpAddrStr)
+
+	// Résoudre l'adresse DQMP reçue en net.Addr
+	// Important pour utiliser comme clé dans l'index secondaire peersByAddr
+	udpAddr, err := net.ResolveUDPAddr("udp", dqmpAddrStr)
+	if err != nil {
+		log.Printf("CONN: Impossible de résoudre l'adresse DQMP '%s' reçue de %s: %v\n", dqmpAddrStr, remotePeerID.ShortString(), err)
+		n.peerManager.SetPeerDisconnected(remotePeerID, fmt.Errorf("adresse DQMP invalide reçue: %s", dqmpAddrStr))
+		return
+	}
+
+	// Marquer à nouveau comme Connecting, mais cette fois AVEC l'adresse DQMP
+	_, err = n.peerManager.SetPeerConnecting(remotePeerID, udpAddr)
+	if err != nil {
+		log.Printf("CONN: Erreur lors de la mise à jour de l'adresse DQMP pour %s: %v\n", remotePeerID.ShortString(), err)
+		// Continuer quand même ?
+	}
+
+	// Maintenant, tenter la connexion QUIC DQMP vers cette adresse
+	if n.isSelf(dqmpAddrStr) {
+		log.Printf("CONN: Adresse DQMP reçue (%s) est la nôtre, connexion ignorée.\n", dqmpAddrStr)
+		return
+	}
+
+	// Vérifier si déjà connecté ou en cours de connexion via PeerManager
+	if existingPeer, exists := n.peerManager.GetPeerByDQMPAddr(udpAddr.String()); exists {
+		if existingPeer.ID == remotePeerID {
+			if existingPeer.State == peers.StateConnected {
+				log.Printf("CONN: Déjà connecté à %s (%s), connexion DQMP ignorée.\n", remotePeerID.ShortString(), udpAddr.String())
+				// Ne pas marquer comme déconnecté ici, la connexion est bonne
+				n.peerManager.SetPeerConnected(remotePeerID, existingPeer.Connection) // Juste pour rafraîchir LastSeen/State?
+				return
+			}
+			// Si Connecting, on laisse la tentative actuelle continuer (ou on l'annule?)
+		} else {
+			// Conflit géré dans SetPeerConnecting/SetPeerConnected
+			log.Printf("WARN: L'adresse DQMP %s est déjà associée à %s (différent de %s).", udpAddr.String(), existingPeer.ID.ShortString(), remotePeerID.ShortString())
+		}
+	}
+
+	log.Printf("CONN: Tentative de connexion DQMP vers %s (%s)\n", remotePeerID.ShortString(), dqmpAddrStr)
+	dialCtx, dialCancel := context.WithTimeout(ctx, 10*time.Second)
+	defer dialCancel()
+	conn, err := transport.Dial(dialCtx, dqmpAddrStr)
+	if err != nil {
+		log.Printf("CONN: Échec connexion DQMP vers %s (%s): %v\n", remotePeerID.ShortString(), dqmpAddrStr, err)
+		n.peerManager.SetPeerDisconnected(remotePeerID, fmt.Errorf("échec connexion DQMP: %w", err))
+		return
+	}
+
+	log.Printf("CONN: Connexion DQMP établie avec %s (%s)\n", remotePeerID.ShortString(), dqmpAddrStr)
+
+	// Mettre à jour le manager avec la connexion réussie
+	// Note: On passe l'ID du pair distant, qui devrait correspondre à celui obtenu via libp2p
+	// Il faudrait vérifier/extraire l'ID du certificat TLS de la connexion QUIC pour confirmer ? (sécurité)
+	// Pour l'instant, on fait confiance à l'adresse reçue.
+	_, err = n.peerManager.SetPeerConnected(remotePeerID, conn)
+	if err != nil {
+		log.Printf("ERROR: Échec mise à jour PeerManager après connexion DQMP %s: %v\n", remotePeerID.ShortString(), err)
+		// Fermer la connexion qu'on vient d'établir ?
+		conn.CloseWithError(1, "Erreur interne PeerManager")
+		n.peerManager.SetPeerDisconnected(remotePeerID, err) // Assurer état cohérent
+		return
+	}
+
+	// Gérer la nouvelle connexion DQMP (comme on le faisait avant)
+	n.wg.Add(1)
+	go n.handleConnection(conn, false, remotePeerID) // false car initiée par nous et Passer l'ID pour l'associer
+
+	// TODO: Associer le PeerID libp2p à ce pair DQMP dans PeerManager
+}
+
+// isSelf vérifie si une adresse correspond à l'adresse d'écoute locale.
+// Simpliste, ne gère pas toutes les interfaces.
+func (n *Node) isSelf(addr string) bool {
+	if n.listener == nil {
+		return false // Ne peut pas vérifier si on n'écoute pas encore
+	}
+	// listenAddr := n.listener.Addr().String()
+
+	// Résoudre l'adresse cible
+	targetUDPAddr, err := net.ResolveUDPAddr("udp", addr)
+	if err != nil {
+		return false // Ne peut pas résoudre
+	}
+
+	listenUDPAddr, ok := n.listener.Addr().(*net.UDPAddr)
+	if !ok {
+		return false // Adresse d'écoute n'est pas UDP?
+	}
+
+	// Comparaison simple d'IP et Port
+	// Attention: peut être trompeur avec 0.0.0.0 ou [::]
+	// Une vérification plus robuste impliquerait de lister les IP locales.
+	if listenUDPAddr.Port == targetUDPAddr.Port {
+		if listenUDPAddr.IP.IsUnspecified() || targetUDPAddr.IP.Equal(listenUDPAddr.IP) {
+			// Potentiellement soi-même, surtout si l'IP d'écoute est unspecified
+			// Ou si les IP correspondent explicitement
+			// Pourrait être affiné en vérifiant les IP locales
+			return true
+		}
+		// TODO: Comparer targetUDPAddr.IP avec toutes les IP locales
+	}
+
+	return false // Par défaut, considérer que ce n'est pas soi-même
+}
+
+// acceptConnections boucle pour accepter les nouvelles connexions QUIC
+func (n *Node) acceptConnections() {
+	defer n.wg.Done() // Signaler la fin de cette goroutine
+	log.Println("INFO: Prêt à accepter les connexions QUIC entrantes...")
+	for {
+		select {
+		case <-n.stopChan:
+			log.Println("INFO: Arrêt de la boucle d'acceptation.")
+			return
+		default:
+		}
+
+		acceptCtx := context.Background() // Le listener.Accept gère son propre timeout interne ou blocage
+		conn, err := n.listener.Accept(acceptCtx)
+
+		if err != nil {
+			// Vérifier si l'erreur est due à la fermeture du listener pendant l'arrêt
+			select {
+			case <-n.stopChan:
+				log.Println("INFO: Listener DQMP fermé pendant l'arrêt, fin de l'acceptation.")
+				return // Sortir proprement
+			default:
+				// Si stopChan n'est pas fermé, l'erreur n'est pas (directement) due à l'arrêt global.
+				// Vérifier les erreurs réseau courantes indiquant une fermeture.
+				if errors.Is(err, net.ErrClosed) || errors.Is(err, quic.ErrServerClosed) {
+					// Le listener a été fermé pour une raison quelconque (peut-être pendant l'arrêt, mais détecté ici).
+					log.Println("INFO: Listener DQMP fermé (net.ErrClosed/quic.ErrServerClosed), fin de l'acceptation.")
+					return // Sortir de la goroutine
+				}
+
+				// Si ce n'est pas une erreur de fermeture attendue, c'est une autre erreur.
+				log.Printf("WARN: Erreur lors de l'acceptation d'une connexion QUIC DQMP: %v\n", err)
+				// Attendre un court instant avant de réessayer pour éviter de saturer le CPU
+				// si l'erreur est persistante (ex: problème de descripteur de fichier).
+				time.Sleep(100 * time.Millisecond)
+				continue // Revenir au début de la boucle
+			}
+		}
+
+		// Si nous arrivons ici, une connexion a été acceptée avec succès.
+		log.Printf("INFO: Nouvelle connexion QUIC DQMP acceptée de %s\n", conn.RemoteAddr().String())
+
+		// Lancer une goroutine pour gérer cette connexion
+		n.wg.Add(1)                           // Ajouter au waitgroup principal
+		go n.handleConnection(conn, true, "") // true car c'est une connexion entrante
+	}
+}
+
+// handleConnection gère une connexion QUIC (entrante ou sortante)
+func (n *Node) handleConnection(conn quic.Connection, isIncoming bool, expectedID peer.ID) {
+	defer n.wg.Done()
+	remoteAddr := conn.RemoteAddr()
+	addrStr := remoteAddr.String()
+	// remotePeerID sera déterminé par l'identification
+	var remotePeerID peer.ID
+
+	// Utiliser l'adresse comme ID temporaire pour les logs
+	logID := addrStr
+	defer func() { // Mettre à jour logID si on trouve le PeerID
+		finalLogID := addrStr
+		if remotePeerID != "" {
+			finalLogID = remotePeerID.ShortString()
+		}
+		log.Printf("CONN: Goroutine pour %s (%s) terminée.\n", finalLogID, addrStr)
+	}()
+
+	ctx := conn.Context() // Contexte de la connexion QUIC
+
+	log.Printf("CONN: Gestion de la connexion %s (%s) - ID attendu: %s\n",
+		addrStr, map[bool]string{true: "entrante", false: "sortante"}[isIncoming], expectedID.ShortString())
+
+	// --- Lancer l'identification immédiatement ---
+	// Utiliser un contexte séparé pour l'identification avec un timeout court
+	idCtx, idCancel := context.WithTimeout(ctx, 10*time.Second) // Timeout de 10s pour l'échange d'ID
+	identifiedID, err := n.performIdentification(idCtx, conn, isIncoming)
+	idCancel() // Libérer le contexte de timeout
+
+	if err != nil {
+		log.Printf("CONN: Échec identification avec %s: %v. Fermeture connexion.\n", addrStr, err)
+		conn.CloseWithError(3, "Identification échouée") // Code d'erreur applicatif
+		// Si on avait un ID attendu, marquer comme échoué ?
+		if expectedID != "" {
+			n.peerManager.SetPeerDisconnected(expectedID, fmt.Errorf("échec identification: %w", err))
+		}
+		return // Arrêter le handler si l'identification échoue
+	}
+
+	// Identification réussie !
+	remotePeerID = identifiedID
+	logID = remotePeerID.ShortString() // Mettre à jour l'ID pour les logs suivants
+	log.Printf("CONN: Identification réussie avec %s (%s)\n", logID, addrStr)
+
+	// Vérifier si l'ID identifié correspond à l'ID attendu (pour les connexions sortantes)
+	if expectedID != "" && expectedID != remotePeerID {
+		log.Printf("ERROR: ID identifié (%s) ne correspond pas à l'ID attendu (%s) pour %s! Fermeture.\n",
+			logID, expectedID.ShortString(), addrStr)
+		conn.CloseWithError(4, "Mismatch PeerID attendu/identifié")
+		n.peerManager.SetPeerDisconnected(remotePeerID, errors.New("mismatch PeerID attendu/identifié"))
+		// Marquer aussi l'ID attendu comme échoué
+		n.peerManager.SetPeerDisconnected(expectedID, errors.New("mismatch PeerID attendu/identifié"))
+		return
+	}
+
+	// Mettre à jour le PeerManager avec l'ID correct et la connexion active
+	_, err = n.peerManager.SetPeerConnected(remotePeerID, conn)
+	if err != nil {
+		// Normalement, le seul cas d'erreur ici est un conflit d'adresse majeur géré dans SetPeerConnected
+		log.Printf("ERROR: Échec mise à jour PeerManager après identification de %s: %v. Fermeture.\n", logID, err)
+		conn.CloseWithError(5, "Erreur interne PeerManager post-identification")
+		n.peerManager.SetPeerDisconnected(remotePeerID, fmt.Errorf("erreur post-identification: %w", err))
+		return
+	}
+	// ------------------------------------------
+
+	// Boucle pour accepter les streams applicatifs (PING, REPLICATE, etc.)
+	log.Printf("CONN: Prêt à accepter les streams applicatifs de %s\n", logID)
+	for {
+		select {
+		case <-ctx.Done(): // La connexion est fermée (par nous ou l'autre)
+			log.Printf("CONN: Connexion %s (%s) fermée (%v).\n", logID, addrStr, ctx.Err())
+			// Mettre à jour le PeerManager pour indiquer la déconnexion
+			// Utiliser ctx.Err() comme raison si remotePeerID est connu
+			if remotePeerID != "" {
+				n.peerManager.SetPeerDisconnected(remotePeerID, ctx.Err())
+			}
+			return
+		case <-n.stopChan: // Le nœud s'arrête
+			log.Printf("CONN: Arrêt du nœud demandé, fermeture de la connexion %s.\n", logID)
+			conn.CloseWithError(0, "Node shutting down")
+			if remotePeerID != "" {
+				n.peerManager.SetPeerDisconnected(remotePeerID, errors.New("node shutting down"))
+			}
+			return
+		default:
+			// Accepter le prochain stream applicatif
+			// Utiliser le contexte de la connexion pour AcceptStream
+			stream, err := conn.AcceptStream(ctx)
+			if err != nil {
+				// Gérer les erreurs d'acceptation de stream (similaire à acceptConnections)
+				select {
+				case <-ctx.Done(): // Connexion fermée pendant l'attente
+					log.Printf("CONN: AcceptStream terminé pour %s car la connexion est fermée.\n", logID)
+					return
+				default:
+					if errors.Is(err, net.ErrClosed) || errors.Is(err, context.Canceled) || err == quic.ErrServerClosed {
+						log.Printf("CONN: AcceptStream terminé pour %s car la connexion est fermée (err: %v).\n", logID, err)
+						return // La connexion a été fermée pendant l'attente
+					}
+					log.Printf("CONN: Erreur AcceptStream pour %s: %v\n", logID, err)
+					// Peut-être juste retourner si l'erreur est grave ?
+					// Pour l'instant, on attend un peu et on continue.
+					time.Sleep(100 * time.Millisecond)
+					continue
+				}
+			}
+
+			// Vérifier si c'est le stream d'identification (ne devrait plus arriver ici)
+			// On pourrait utiliser stream.Protocol() si on le définissait.
+			// if stream.Protocol() == DQMPIdentifyProtocolID { stream.Reset(6); continue }
+
+			log.Printf("CONN: Nouveau stream applicatif [%d] accepté de %s\n", stream.StreamID(), logID)
+			// Gérer le stream applicatif dans une nouvelle goroutine
+			n.wg.Add(1)
+			go n.handleStream(conn, stream, remotePeerID) // Passer l'ID identifié
+		}
+	}
+}
+
+// performIdentification effectue l'échange d'ID sur la connexion QUIC DQMP.
+func (n *Node) performIdentification(ctx context.Context, conn quic.Connection, isIncoming bool) (peer.ID, error) {
+	var stream quic.Stream
+	var err error
+
+	// Ouvrir ou Accepter le stream dédié à l'identification.
+	// Pour éviter les blocages, un côté ouvre, l'autre accepte.
+	// Convention simple: le côté qui a initié la connexion QUIC (isIncoming=false) ouvre le stream 0 ?
+	// Ou utiliser OpenStreamSync / AcceptStream avec le contexte.
+	// Utilisons OpenStream/AcceptStream pour plus de clarté.
+
+	if isIncoming {
+		// Côté entrant : Accepter le stream d'identification initié par l'autre.
+		log.Printf("IDENTIFY: [%s] Attente du stream d'identification...\n", conn.RemoteAddr())
+		stream, err = conn.AcceptStream(ctx)
+		if err != nil {
+			return "", fmt.Errorf("échec acceptation stream identification: %w", err)
+		}
+		log.Printf("IDENTIFY: [%s] Stream d'identification [%d] accepté.\n", conn.RemoteAddr(), stream.StreamID())
+		// Vérifier le protocole (si on l'avait défini pour le stream)
+		// if stream.Protocol() != DQMPIdentifyProtocolID { stream.Reset(..); return "", errors.New("unexpected protocol") }
+	} else {
+		// Côté sortant : Ouvrir le stream d'identification.
+		log.Printf("IDENTIFY: [%s] Ouverture du stream d'identification...\n", conn.RemoteAddr())
+		stream, err = conn.OpenStreamSync(ctx) // Attend l'acceptation par l'autre pair
+		if err != nil {
+			return "", fmt.Errorf("échec ouverture stream identification: %w", err)
+		}
+		log.Printf("IDENTIFY: [%s] Stream d'identification [%d] ouvert.\n", conn.RemoteAddr(), stream.StreamID())
+		// Définir le protocole (optionnel mais bonne pratique)
+		// stream.SetProtocol(DQMPIdentifyProtocolID)
+	}
+	// S'assurer que le stream est fermé à la fin de cette fonction
+	defer stream.Close()
+
+	// Échange d'ID en parallèle (envoyer notre ID, recevoir l'ID de l'autre)
+	var remotePID peer.ID
+	var wgIdentify sync.WaitGroup
+	var sendErr, recvErr error
+	doneChan := make(chan struct{}) // Pour signaler la fin des deux goroutines
+
+	wgIdentify.Add(2)
+
+	// Goroutine pour envoyer notre ID
+	go func() {
+		defer wgIdentify.Done()
+		log.Printf("IDENTIFY: [%s] Envoi de notre ID (%s)...\n", conn.RemoteAddr(), n.p2pHost.ID().ShortString())
+		encoder := gob.NewEncoder(stream) // Utiliser gob pour simplicité
+		// Définir un deadline d'écriture
+		stream.SetWriteDeadline(time.Now().Add(5 * time.Second))
+		err := encoder.Encode(n.p2pHost.ID())
+		stream.SetWriteDeadline(time.Time{}) // Reset deadline
+		if err != nil {
+			log.Printf("IDENTIFY: [%s] Erreur envoi ID: %v\n", conn.RemoteAddr(), err)
+			sendErr = fmt.Errorf("échec envoi ID: %w", err)
+			stream.CancelWrite(1) // Annuler l'écriture
+		} else {
+			log.Printf("IDENTIFY: [%s] Notre ID envoyé.\n", conn.RemoteAddr())
+			// Fermer explicitement l'écriture après l'envoi ?
+			// stream.Close() // Attention: ferme aussi la lecture! Non.
+			// On laisse le defer stream.Close() global gérer.
+		}
+	}()
+
+	// Goroutine pour recevoir l'ID de l'autre
+	go func() {
+		defer wgIdentify.Done()
+		log.Printf("IDENTIFY: [%s] Attente de l'ID distant...\n", conn.RemoteAddr())
+		decoder := gob.NewDecoder(stream) // Utiliser gob
+		// Définir un deadline de lecture
+		stream.SetReadDeadline(time.Now().Add(5 * time.Second))
+		err := decoder.Decode(&remotePID)
+		stream.SetReadDeadline(time.Time{}) // Reset deadline
+		if err != nil {
+			log.Printf("IDENTIFY: [%s] Erreur réception ID: %v\n", conn.RemoteAddr(), err)
+			recvErr = fmt.Errorf("échec réception ID: %w", err)
+			stream.CancelRead(1) // Annuler la lecture
+		} else {
+			log.Printf("IDENTIFY: [%s] ID distant reçu: %s\n", conn.RemoteAddr(), remotePID.ShortString())
+		}
+	}()
+
+	// Attendre la fin des deux goroutines
+	go func() {
+		wgIdentify.Wait()
+		close(doneChan)
+	}()
+
+	// Attendre la fin ou le timeout du contexte global d'identification
+	select {
+	case <-doneChan:
+		// Terminé
+		if sendErr != nil {
+			return "", sendErr
+		}
+		if recvErr != nil {
+			return "", recvErr
+		}
+		// Vérifier si l'ID reçu est valide
+		if remotePID == "" {
+			return "", errors.New("ID distant reçu est vide")
+		}
+		// Vérifier qu'on n'est pas connecté à soi-même
+		if remotePID == n.p2pHost.ID() {
+			return "", errors.New("connexion à soi-même détectée pendant l'identification")
+		}
+		return remotePID, nil
+	case <-ctx.Done():
+		// Timeout ou annulation
+		log.Printf("IDENTIFY: [%s] Timeout/Annulation pendant l'échange d'ID.\n", conn.RemoteAddr())
+		// S'assurer que le stream est fermé/reset
+		stream.CancelRead(7)  // NOUVEAU
+		stream.CancelWrite(7) // NOUVEAU
+		return "", fmt.Errorf("timeout/annulation pendant identification: %w", ctx.Err())
+	}
+}
+
+// handleStream gère un stream QUIC individuel
+func (n *Node) handleStream(conn quic.Connection, stream quic.Stream, remotePeerID peer.ID) {
+	defer n.wg.Done()
+	defer stream.Close()
+	logID := conn.RemoteAddr().String()
+	if remotePeerID != "" {
+		logID = remotePeerID.ShortString()
+	}
+
+	log.Printf("STREAM: Gestion du stream [%d] de %s\n", stream.StreamID(), logID)
+
+	// Lire la première ligne pour déterminer le type de message
+	reader := bufio.NewReader(stream)
+	// Augmenter légèrement la taille du buffer si les clés/valeurs peuvent être longues
+	// reader := bufio.NewReaderSize(stream, 1024)
+
+	// Lire la première ligne (commande ou message)
+	// Mettre un timeout de lecture pour éviter de bloquer indéfiniment sur un stream inactif
+	stream.SetReadDeadline(time.Now().Add(30 * time.Second)) // Timeout de 30s pour lire la commande
+
+	firstLine, err := reader.ReadString('\n')
+	// Réinitialiser le deadline après avoir lu la commande
+	stream.SetReadDeadline(time.Time{}) // Pas de deadline pour le reste (ou une autre valeur)
+
+	if err != nil {
+		// Gérer les erreurs de lecture (EOF est ok si le stream est fermé proprement)
+		if err != io.EOF && !errors.Is(err, net.ErrClosed) && !errors.Is(err, context.Canceled) {
+			// Vérifier si c'est un timeout
+			if netErr, ok := err.(net.Error); ok && netErr.Timeout() {
+				log.Printf("STREAM: Timeout en attendant la commande sur stream [%d] de %s\n", stream.StreamID(), logID)
+			} else {
+				log.Printf("STREAM: Erreur lecture commande sur stream [%d] de %s: %v\n", stream.StreamID(), logID, err)
+			}
+		} else if err == io.EOF {
+			log.Printf("STREAM: Stream [%d] fermé par %s avant d'envoyer une commande.\n", stream.StreamID(), logID)
+		}
+		return
+	}
+	firstLine = strings.TrimSpace(firstLine)
+
+	// Dispatcher en fonction de la première ligne
+	switch {
+	case firstLine == pingStreamMsg:
+		n.handlePingStream(conn, stream, remotePeerID, logID)
+	case strings.HasPrefix(firstLine, replicateStreamPrefix):
+		n.handleReplicateStream(conn, stream, remotePeerID, logID, firstLine, reader)
+	default:
+		log.Printf("STREAM: Commande inconnue '%s' reçue sur stream [%d] de %s, fermeture.\n", firstLine, stream.StreamID(), logID)
+		// Envoyer une erreur ? Pour l'instant, on ferme juste.
+	}
+}
+
+// handlePingStream gère un stream PING entrant
+func (n *Node) handlePingStream(conn quic.Connection, stream quic.Stream, remotePeerID peer.ID, logID string) {
+	log.Printf("STREAM: Réception PING sur stream [%d] de %s, envoi PONG\n", stream.StreamID(), logID)
+	// Ajouter un deadline d'écriture
+	stream.SetWriteDeadline(time.Now().Add(5 * time.Second))
+	_, err := stream.Write([]byte(pongStreamMsg + "\n"))
+	stream.SetWriteDeadline(time.Time{}) // Reset deadline
+
+	if err != nil {
+		log.Printf("STREAM: Erreur d'écriture PONG sur stream [%d] de %s: %v\n", stream.StreamID(), logID, err)
+		// stream.CancelWrite(1) // Optionnel: annuler l'écriture
+		return
+	}
+	log.Printf("STREAM: PONG envoyé sur stream [%d] de %s\n", stream.StreamID(), logID)
+	// Le stream sera fermé par le defer dans handleStream
+}
+
+// handleReplicateStream gère un stream de réplication entrant
+func (n *Node) handleReplicateStream(conn quic.Connection, stream quic.Stream, remotePeerID peer.ID, logID string, commandLine string, reader *bufio.Reader) {
+	log.Printf("STREAM: Réception REPLICATE sur stream [%d] de %s\n", stream.StreamID(), logID)
+
+	// Parser la ligne de commande: REPLICATE <key_len> <key> <value_len>
+	// Note: Le format actuel est un peu fragile. Protobuf serait mieux.
+	parts := strings.Fields(commandLine)
+	if len(parts) != 4 {
+		log.Printf("STREAM: Format REPLICATE invalide reçu de %s: '%s'\n", logID, commandLine)
+		stream.CancelRead(1)  // NOUVEAU
+		stream.CancelWrite(1) // NOUVEAU
+		return
+	}
+
+	keyLenStr, valueLenStr := parts[1], parts[3]
+	key := parts[2] // Récupérer la clé directement
+
+	keyLen, errK := strconv.Atoi(keyLenStr)
+	valueLen, errV := strconv.Atoi(valueLenStr)
+
+	if errK != nil || errV != nil || keyLen < 0 || valueLen < 0 || keyLen != len(key) {
+		log.Printf("STREAM: Longueurs key/value invalides reçues de %s: keyLen=%s, valueLen=%s, key='%s'\n", logID, keyLenStr, valueLenStr, key)
+		stream.CancelRead(1)  // NOUVEAU
+		stream.CancelWrite(1) // NOUVEAU
+		return
+	}
+
+	// Lire la valeur depuis le reste du stream
+	valueBytes := make([]byte, valueLen)
+	// Définir un deadline de lecture pour la valeur
+	stream.SetReadDeadline(time.Now().Add(30 * time.Second)) // Timeout pour lire la valeur
+	_, err := io.ReadFull(reader, valueBytes)                // Lire exactement valueLen octets
+	stream.SetReadDeadline(time.Time{})                      // Reset deadline
+
+	if err != nil {
+		if err == io.ErrUnexpectedEOF {
+			log.Printf("STREAM: Fin de stream inattendue en lisant la valeur de réplication de %s (attendu %d octets)\n", logID, valueLen)
+		} else if netErr, ok := err.(net.Error); ok && netErr.Timeout() {
+			log.Printf("STREAM: Timeout en lisant la valeur de réplication (%d octets) de %s\n", valueLen, logID)
+		} else {
+			log.Printf("STREAM: Erreur lecture valeur de réplication de %s: %v\n", logID, err)
+		}
+		stream.CancelRead(1)  // NOUVEAU
+		stream.CancelWrite(1) // NOUVEAU
+		return
+	}
+
+	log.Printf("REPLICATION: Donnée reçue de %s pour clé '%s' (%d octets). Stockage local...\n", logID, key, valueLen)
+
+	// Stocker localement via DataManager
+	// Important: Utiliser un contexte séparé ou limiter le temps ici
+	// pour ne pas bloquer indéfiniment si BoltDB est lent.
+	_, putCancel := context.WithTimeout(context.Background(), 5*time.Second)
+	defer putCancel()
+	// Utiliser Put avec contexte si DataManager le supporte, sinon appel direct.
+	err = n.dataManager.Put(key, valueBytes) // Ajouter contexte si possible
+
+	if err != nil {
+		log.Printf("REPLICATION: Échec stockage local de la donnée répliquée ('%s') de %s: %v\n", key, logID, err)
+		// Envoyer un NACK ? Pour l'instant, on ne fait rien de plus.
+		// stream.Reset(2) // Autre code d'erreur ?
+		return
+	}
+
+	log.Printf("REPLICATION: Donnée répliquée ('%s') de %s stockée localement avec succès.\n", key, logID)
+
+	// Pas de réponse ACK pour l'instant. Le stream sera fermé.
+}
+
+// replicateData envoie une paire clé-valeur à un sous-ensemble de pairs connectés.
+func (n *Node) ReplicateData(ctx context.Context, key string, value []byte) {
+	connectedPeers := n.peerManager.GetConnectedPeers()
+	if len(connectedPeers) == 0 {
+		log.Println("REPLICATION: Aucun pair connecté trouvé pour la réplication.")
+		return
+	}
+
+	// Sélectionner les cibles (stratégie simple : les N premiers)
+	targets := connectedPeers
+	if len(targets) > MaxReplicas {
+		// TODO: Meilleure sélection (aléatoire, basée sur score énergie/latence...)
+		targets = targets[:MaxReplicas]
+	}
+
+	log.Printf("REPLICATION: Tentative de réplication de la clé '%s' vers %d pair(s)...\n", key, len(targets))
+
+	var wgReplication sync.WaitGroup
+	for _, targetPeer := range targets {
+		// Éviter de se répliquer à soi-même (ne devrait pas être dans GetConnectedPeers, mais par sécurité)
+		if targetPeer.ID == n.p2pHost.ID() {
+			continue
+		}
+		// Vérifier si la connexion est toujours valide
+		if targetPeer.Connection == nil || targetPeer.Connection.Context().Err() != nil {
+			log.Printf("REPLICATION: Connexion vers %s invalide, réplication ignorée.\n", targetPeer.ID.ShortString())
+			continue
+		}
+
+		wgReplication.Add(1)
+		go func(p *peers.Peer, k string, v []byte) {
+			defer wgReplication.Done()
+			logID := p.ID.ShortString()
+			if logID == "" {
+				logID = p.DQMPAddr.String()
+			} // Fallback si ID inconnu
+
+			log.Printf("REPLICATION: Envoi de '%s' vers %s...\n", k, logID)
+
+			// Utiliser la connexion DQMP existante du PeerManager
+			conn := p.Connection
+
+			// Ouvrir un nouveau stream pour la réplication
+			// Utiliser un contexte avec timeout pour l'ouverture du stream et l'écriture
+			repCtx, repCancel := context.WithTimeout(ctx, 15*time.Second) // Timeout global pour l'opération
+			defer repCancel()
+
+			stream, err := conn.OpenStreamSync(repCtx) // Attend que le pair accepte
+			if err != nil {
+				log.Printf("REPLICATION: Échec ouverture stream vers %s: %v\n", logID, err)
+				// La connexion est peut-être morte, mettre à jour l'état ?
+				// Le handleConnection distant détectera la fermeture et mettra à jour.
+				return
+			}
+			defer stream.Close() // Ferme l'écriture pour signaler la fin
+
+			// Construire le message de commande
+			command := fmt.Sprintf("%s %d %s %d\n", replicateStreamPrefix, len(k), k, len(v))
+
+			// Écrire la commande puis la valeur
+			stream.SetWriteDeadline(time.Now().Add(10 * time.Second)) // Timeout écriture
+			_, err = stream.Write([]byte(command))
+			if err == nil {
+				_, err = stream.Write(v)
+			}
+			stream.SetWriteDeadline(time.Time{}) // Reset deadline
+
+			if err != nil {
+				log.Printf("REPLICATION: Échec écriture vers %s: %v\n", logID, err)
+				// Annuler l'écriture et fermer le stream avec une erreur ?
+				stream.CancelRead(1)  // NOUVEAU
+				stream.CancelWrite(1) // NOUVEAU
+				return
+			}
+
+			log.Printf("REPLICATION: Donnée '%s' envoyée avec succès à %s.\n", k, logID)
+			// Pas d'attente de ACK pour l'instant.
+
+		}(targetPeer, key, value)
+	}
+
+	// Attendre la fin des goroutines de réplication (optionnel, car fire-and-forget)
+	// wgReplication.Wait() // Si on veut attendre que les envois soient terminés
+}
+
+// SendPing envoie un PING à un pair et attend un PONG.
+// C'est une fonction utilitaire qui pourrait être appelée par le CLI ou d'autres logiques.
+func (n *Node) SendPing(ctx context.Context, targetAddr string) error {
+	log.Printf("PING: Tentative de PING vers %s\n", targetAddr)
+
+	// Utiliser le PeerManager pour voir si on a déjà une connexion ?
+	// Pour ce test simple, on établit une nouvelle connexion à chaque fois.
+	// Plus tard, on réutilisera les connexions existantes via PeerManager.
+
+	dialCtx, cancel := context.WithTimeout(ctx, pingTimeout)
+	defer cancel()
+
+	conn, err := transport.Dial(dialCtx, targetAddr)
+	if err != nil {
+		return fmt.Errorf("échec de connexion pour PING: %w", err)
+	}
+	// Fermer la connexion à la fin du PING pour ce test simple
+	// En pratique, on voudrait garder la connexion ouverte
+	defer conn.CloseWithError(0, "Ping completed")
+
+	// Ouvrir un nouveau stream bidirectionnel pour le PING
+	streamCtx, streamCancel := context.WithTimeout(ctx, pingTimeout)
+	defer streamCancel()
+	stream, err := conn.OpenStreamSync(streamCtx) // OpenStreamSync attend que le pair accepte
+	if err != nil {
+		return fmt.Errorf("échec d'ouverture du stream PING: %w", err)
+	}
+	defer stream.Close() // Ferme l'écriture, signale la fin à l'autre pair
+
+	log.Printf("PING: Envoi '%s' vers %s sur stream [%d]\n", pingStreamMsg, targetAddr, stream.StreamID())
+	_, err = stream.Write([]byte(pingStreamMsg + "\n"))
+	if err != nil {
+		stream.CancelWrite(1)
+		return fmt.Errorf("échec d'écriture PING: %w", err)
+	}
+
+	// Lire la réponse PONG
+	reader := bufio.NewReader(stream)
+	// Définir un deadline de lecture sur le stream pour le timeout global
+	if deadline, ok := dialCtx.Deadline(); ok {
+		stream.SetReadDeadline(time.Now().Add(pingTimeout - time.Since(deadline))) // Ajuster le délai restant
+	}
+
+	response, err := reader.ReadString('\n')
+	if err != nil {
+		stream.CancelRead(1)
+		return fmt.Errorf("échec de lecture PONG: %w", err)
+	}
+
+	response = strings.TrimSpace(response)
+	log.Printf("PING: Reçu '%s' de %s sur stream [%d]\n", response, targetAddr, stream.StreamID())
+
+	if response != pongStreamMsg {
+		return fmt.Errorf("réponse inattendue reçue: '%s', attendu '%s'", response, pongStreamMsg)
+	}
+
+	log.Printf("PING: PING vers %s réussi!\n", targetAddr)
+	return nil
+}
+
+// Stop arrête proprement le nœud DQMP
+func (n *Node) Stop() error {
+	log.Println("INFO: Arrêt du nœud DQMP...")
+
+	// 1. Signaler aux goroutines de s'arrêter
+	close(n.stopChan)
+
+	// 2. Arrêter le serveur API en premier (pour qu'il ne traite plus de requêtes)
+	if n.apiServer != nil {
+		// Utiliser un contexte avec timeout pour l'arrêt gracieux
+		shutdownCtx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+		defer cancel()
+		if err := n.apiServer.Stop(shutdownCtx); err != nil {
+			log.Printf("WARN: Problème lors de l'arrêt du serveur API: %v", err)
+		}
+	}
+
+	// 3. Fermer DataManager (important de le faire avant la fin)
+	if n.dataManager != nil {
+		if err := n.dataManager.Close(); err != nil {
+			log.Printf("WARN: Erreur lors de la fermeture du DataManager: %v", err)
+		}
+	}
+
+	// 4. Fermer le listener en premier pour ne plus accepter de nouvelles connexions
+	if n.listener != nil {
+		log.Println("INFO: Fermeture du listener QUIC...")
+		err := n.listener.Close()
+		if err != nil {
+			log.Printf("WARN: Erreur lors de la fermeture du listener QUIC: %v\n", err)
+		} else {
+			log.Println("INFO: Listener QUIC fermé.")
+		}
+	}
+
+	// 5. Fermer le DHT Kademlia
+	if n.kadDHT != nil {
+		log.Println("DISCOVERY: Fermeture du DHT Kademlia...")
+		if err := n.kadDHT.Close(); err != nil {
+			log.Printf("WARN: Erreur lors de la fermeture du DHT: %v", err)
+		} else {
+			log.Println("DISCOVERY: DHT fermé.")
+		}
+	}
+
+	// 6. Fermer le Host libp2p (ferme aussi ses connexions)
+	if n.p2pHost != nil {
+		log.Println("DISCOVERY: Fermeture du Host libp2p...")
+		if err := n.p2pHost.Close(); err != nil {
+			log.Printf("WARN: Erreur lors de la fermeture du Host libp2p: %v", err)
+		} else {
+			log.Println("DISCOVERY: Host libp2p fermé.")
+		}
+	}
+
+	// 7. Fermer explicitement toutes les connexions actives gérées par le peerManager
+	// Note: handleConnection devrait aussi gérer la fermeture via stopChan/ctx.Done()
+	// Ceci est une ceinture et bretelles.
+	activeConns := n.peerManager.GetActiveConnections()
+	log.Printf("INFO: Fermeture de %d connexion(s) active(s)...\n", len(activeConns))
+	for _, conn := range activeConns {
+		// Le code 0 indique une fermeture normale par l'application
+		conn.CloseWithError(0, "Node shutting down")
+	}
+
+	// 8. Attendre que toutes les goroutines (accept, bootstrap, handleConnection, handleStream) se terminent
+	log.Println("INFO: Attente de la fin des goroutines...")
+	// Mettre un timeout sur l'attente pour éviter de bloquer indéfiniment
+	waitTimeout := 10 * time.Second
+	waitChan := make(chan struct{})
+	go func() {
+		n.wg.Wait()
+		close(waitChan)
+	}()
+	select {
+	case <-waitChan:
+		log.Println("INFO: Toutes les goroutines se sont terminées.")
+	case <-time.After(waitTimeout):
+		log.Printf("WARN: Timeout en attendant les goroutines après %v.\n", waitTimeout)
+	}
+
+	log.Println("INFO: Nœud DQMP arrêté.")
+	return nil
+}
+
+// Run (inchangé)
+func (n *Node) Run() error {
+	// ...
+	if err := n.Start(); err != nil {
+		return err
+	}
+	// ... attendre signal ...
+	sigChan := make(chan os.Signal, 1)
+	signal.Notify(sigChan, syscall.SIGINT, syscall.SIGTERM)
+	receivedSignal := <-sigChan
+	log.Printf("INFO: Signal reçu (%v), lancement de l'arrêt...\n", receivedSignal)
+	// ...
+	return n.Stop()
+}
+
+/pkg\peers\manager.go/
+// pkg/peers/manager.go
+package peers
+
+import (
+	"context"
+	"errors"
+	"fmt"
+	"log"
+	"net"
+	"sync"
+	"time"
+
+	"github.com/libp2p/go-libp2p/core/peer"
+	ma "github.com/multiformats/go-multiaddr"
+	"github.com/quic-go/quic-go"
+)
+
+// PeerState représente l'état de connectivité DQMP avec un pair.
+type PeerState string
+
+const (
+	StateDiscovered PeerState = "Discovered" // Connu via DHT/Bootstrap, pas de connexion DQMP
+	StateConnecting PeerState = "Connecting" // Tentative de connexion DQMP en cours
+	StateConnected  PeerState = "Connected"  // Connexion DQMP active
+	StateFailed     PeerState = "Failed"     // Tentative de connexion DQMP échouée récemment
+	StateRemoved    PeerState = "Removed"    // Marqué pour suppression (optionnel)
+)
+
+// Peer représente un nœud distant connu.
+type Peer struct {
+	ID         peer.ID         // Identifiant unique Libp2p (clé primaire)
+	Multiaddrs []ma.Multiaddr  // Adresses Libp2p connues
+	DQMPAddr   net.Addr        // Adresse QUIC DQMP (peut être nil)
+	Connection quic.Connection // Connexion QUIC DQMP active (peut être nil)
+	State      PeerState       // État actuel de la connexion DQMP
+	LastSeen   time.Time       // Dernière fois qu'on a eu une interaction/découverte
+	LastError  error           // Dernière erreur de connexion (optionnel)
+	// TODO: Ajouter Score Énergétique, Latence, etc.
+}
+
+// Manager gère l'ensemble des pairs connus et actifs.
+type Manager struct {
+	peers       map[peer.ID]*Peer // Clé: PeerID libp2p
+	peersByAddr map[string]*Peer  // Index secondaire par Addr.String() de la connexion DQMP
+	mu          sync.RWMutex
+	selfID      peer.ID // ID du nœud local pour éviter d'ajouter soi-même
+}
+
+// NewManager crée un nouveau gestionnaire de pairs.
+func NewManager(selfID peer.ID) *Manager {
+	return &Manager{
+		peers:       make(map[peer.ID]*Peer),
+		peersByAddr: make(map[string]*Peer),
+		selfID:      selfID,
+	}
+}
+
+// AddOrUpdateDiscoveredPeer ajoute ou met à jour un pair découvert (ex: via DHT).
+// Met à jour les Multiaddrs et le LastSeen. Ne crée pas de connexion DQMP.
+func (m *Manager) AddOrUpdateDiscoveredPeer(info peer.AddrInfo) *Peer {
+	// Ignorer soi-même
+	if info.ID == m.selfID {
+		return nil
+	}
+
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	peer, exists := m.peers[info.ID]
+	now := time.Now()
+
+	if !exists {
+		peer = &Peer{
+			ID:         info.ID,
+			Multiaddrs: info.Addrs,
+			State:      StateDiscovered,
+			LastSeen:   now,
+		}
+		m.peers[info.ID] = peer
+		log.Printf("PEERS: Nouveau pair découvert (via Discovery): %s\n", info.ID.ShortString())
+	} else {
+		// Mettre à jour les Multiaddrs et LastSeen
+		// TODO: Logique de fusion plus intelligente des adresses ?
+		peer.Multiaddrs = info.Addrs // Remplacer pour l'instant
+		peer.LastSeen = now
+		// Ne pas changer l'état s'il est déjà Connecting ou Connected
+		if peer.State == StateFailed || peer.State == StateRemoved {
+			peer.State = StateDiscovered // Peut être redécouvert
+			peer.LastError = nil
+		}
+		// log.Printf("PEERS: Pair découvert mis à jour: %s\n", info.ID.ShortString())
+	}
+
+	return peer
+}
+
+// SetPeerConnecting marque un pair comme étant en cours de connexion DQMP.
+func (m *Manager) SetPeerConnecting(id peer.ID, dqmpAddr net.Addr) (*Peer, error) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	peer, exists := m.peers[id]
+	if !exists {
+		// Ne devrait pas arriver si découvert d'abord, mais gérons le cas
+		peer = &Peer{ID: id, State: StateDiscovered, LastSeen: time.Now()}
+		m.peers[id] = peer
+	}
+
+	// Vérifier si une connexion est déjà active ou en cours pour cette adresse DQMP
+	if dqmpAddr != nil {
+		addrStr := dqmpAddr.String()
+		if existingPeer, ok := m.peersByAddr[addrStr]; ok && existingPeer.ID != id {
+			// Conflit: une autre PeerID est déjà associée à cette adresse DQMP !
+			log.Printf("WARN: Tentative de connexion à %s (%s) alors que déjà associé à %s",
+				addrStr, id.ShortString(), existingPeer.ID.ShortString())
+			// return nil, fmt.Errorf("l'adresse DQMP %s est déjà utilisée par le pair %s", addrStr, existingPeer.ID.ShortString())
+			// Pour l'instant, on permet, mais c'est suspect.
+		}
+	}
+
+	// Ne mettre à jour que si on n'est pas déjà connecté
+	if peer.State != StateConnected {
+		peer.State = StateConnecting
+		peer.DQMPAddr = dqmpAddr // Mémoriser l'adresse cible
+		peer.LastSeen = time.Now()
+		peer.LastError = nil // Reset de la dernière erreur
+		log.Printf("PEERS: Pair %s marqué comme Connecting (DQMP Addr: %s)\n", id.ShortString(), dqmpAddr)
+	} else {
+		log.Printf("PEERS: Tentative de marquer %s comme Connecting alors qu'il est déjà Connected.\n", id.ShortString())
+	}
+
+	return peer, nil
+}
+
+// SetPeerConnected met à jour un pair lorsqu'une connexion DQMP est établie.
+// Nécessite l'ID du pair et la connexion QUIC active.
+func (m *Manager) SetPeerConnected(id peer.ID, conn quic.Connection) (*Peer, error) {
+	// ... (check conn nil) ...
+	dqmpAddr := conn.RemoteAddr()
+	addrStr := dqmpAddr.String()
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	peer, exists := m.peers[id]
+	if !exists {
+		// Connexion entrante de pair inconnu ? Ou ID fourni incorrect ?
+		// Si l'ID est vide "", c'est probablement une connexion entrante non identifiée.
+		if id == "" {
+			log.Printf("WARN: SetPeerConnected appelé avec ID vide pour connexion %s. Impossible de stocker par ID.", addrStr)
+			// Que faire ? Créer une entrée temporaire basée sur l'adresse ?
+			// Ou simplement ne pas l'ajouter à la map m.peers ?
+			// Pour l'instant, ne l'ajoutons pas à m.peers si l'ID est vide.
+			// Mais faut-il l'ajouter à m.peersByAddr ? Peut-être pas non plus sans ID.
+			return nil, fmt.Errorf("impossible d'associer une connexion sans PeerID")
+		}
+		// Si l'ID n'est pas vide mais n'existe pas, on le crée.
+		log.Printf("PEERS: Connexion DQMP établie avec un pair précédemment inconnu ou non connecté %s (ID: %s)\n", addrStr, id.ShortString())
+		peer = &Peer{ID: id}
+		m.peers[id] = peer
+	}
+	// ... (gestion conflit adresse) ...
+	peer.Connection = conn
+	peer.DQMPAddr = dqmpAddr
+	peer.State = StateConnected
+	peer.LastSeen = time.Now()
+	peer.LastError = nil
+	m.peersByAddr[addrStr] = peer // Ajouter à l'index par adresse
+	log.Printf("PEERS: Pair %s marqué comme Connected (DQMP Addr: %s)\n", id.ShortString(), addrStr)
+	return peer, nil
+}
+
+// SetPeerDisconnected met à jour l'état d'un pair après une déconnexion DQMP ou échec.
+func (m *Manager) SetPeerDisconnected(id peer.ID, reason error) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	peer, exists := m.peers[id]
+	if !exists {
+		return // Pair non connu, rien à faire
+	}
+
+	log.Printf("PEERS: Déconnexion/Échec pour le pair %s. Raison: %v\n", id.ShortString(), reason)
+
+	// Supprimer de l'index par adresse si l'adresse est connue
+	if peer.DQMPAddr != nil {
+		delete(m.peersByAddr, peer.DQMPAddr.String())
+	}
+
+	// Mettre à jour l'état
+	peer.Connection = nil
+	peer.DQMPAddr = nil // On ne sait plus où le joindre via DQMP
+	peer.LastError = reason
+	if reason != nil && !errors.Is(reason, context.Canceled) { // Ne pas marquer comme Failed si c'est un arrêt normal
+		peer.State = StateFailed
+	} else {
+		peer.State = StateDiscovered // Retour à l'état découvert après déconnexion normale
+	}
+	peer.LastSeen = time.Now()
+}
+
+// GetPeer récupère un pair par son PeerID.
+func (m *Manager) GetPeer(id peer.ID) (*Peer, bool) {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	peer, exists := m.peers[id]
+	return peer, exists
+}
+
+// GetPeerByDQMPAddr récupère un pair par son adresse de connexion DQMP.
+func (m *Manager) GetPeerByDQMPAddr(addrStr string) (*Peer, bool) {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	peer, exists := m.peersByAddr[addrStr]
+	return peer, exists
+}
+
+// RemovePeer supprime un pair du manager (moins utile maintenant qu'on a des états).
+// On pourrait préférer marquer comme StateRemoved et nettoyer périodiquement.
+func (m *Manager) RemovePeer(id peer.ID) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	peer, exists := m.peers[id]
+	if exists {
+		// Supprimer de l'index par adresse
+		if peer.DQMPAddr != nil {
+			delete(m.peersByAddr, peer.DQMPAddr.String())
+		}
+		// Supprimer de la map principale
+		delete(m.peers, id)
+		log.Printf("PEERS: Pair %s supprimé du manager.\n", id.ShortString())
+	}
+}
+
+// GetAllPeers renvoie une copie de la liste de tous les pairs connus.
+func (m *Manager) GetAllPeers() []*Peer {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	list := make([]*Peer, 0, len(m.peers))
+	for _, peer := range m.peers {
+		list = append(list, peer)
+	}
+	return list
+}
+
+// GetPeerByDQMPAddr récupère un pair par son adresse de connexion DQMP.
+func (m *Manager) GetPeerByAddr(addrStr string) (*Peer, bool) {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	peer, exists := m.peersByAddr[addrStr]
+	return peer, exists
+}
+
+// GetActiveConnections renvoie les connexions QUIC actives.
+func (m *Manager) GetActiveConnections() []quic.Connection {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	conns := make([]quic.Connection, 0, len(m.peers))
+	for _, peer := range m.peers {
+		if peer.Connection != nil {
+			// Vérifier si la connexion est toujours active (le contexte n'est pas terminé)
+			// Note: quic-go ne fournit pas de méthode IsClosed() simple.
+			// On pourrait vérifier conn.Context().Err() != nil, mais c'est implicite.
+			// Pour l'instant, on suppose qu'une connexion non-nil est potentiellement active.
+			// Une meilleure gestion de l'état serait nécessaire (ex: écouter Context().Done()).
+			conns = append(conns, peer.Connection)
+		}
+	}
+	return conns
+}
+
+// GetConnectedPeers renvoie la liste des pairs avec une connexion DQMP active.
+func (m *Manager) GetConnectedPeers() []*Peer {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	list := make([]*Peer, 0, len(m.peers))
+	for _, peer := range m.peers {
+		if peer.State == StateConnected && peer.Connection != nil {
+			// Re-vérifier si la connexion est vraiment active ?
+			// Le contexte de la connexion est le meilleur indicateur.
+			// if peer.Connection.Context().Err() == nil {
+			list = append(list, peer)
+			// }
+		}
+	}
+	return list
+}
+
+/pkg\transport\quic.go/
+// pkg/transport/quic.go
+package transport
+
+import (
+	"context"
+	"crypto/rand"
+	"crypto/rsa"
+	"crypto/tls"
+	"crypto/x509"
+	"encoding/pem"
+	"log"
+	"math/big"
+	"net"
+	"sync"
+	"time"
+
+	"github.com/quic-go/quic-go"
+)
+
+// Listen démarre un listener QUIC sur l'adresse donnée
+func Listen(addr string) (*quic.Listener, error) {
+	tlsConf, err := getTLSConfig(true)
+	if err != nil {
+		log.Printf("ERROR: Échec de la génération de la config TLS: %v\n", err)
+		var emptyListener *quic.Listener
+		return emptyListener, err // Ensure the return type matches the function signature
+	}
+
+	// Configurer le listener QUIC
+	// Pour l'instant, utilisons une config QUIC par défaut.
+	// Plus tard, nous ajouterons les paramètres MP-QUIC, etc.
+	quicConf := &quic.Config{
+		MaxIdleTimeout:  10 * time.Minute,
+		KeepAlivePeriod: 25 * time.Second,
+	}
+
+	listener, err := quic.ListenAddr(addr, tlsConf, quicConf)
+	if err != nil {
+		log.Printf("ERROR: Échec de l'écoute QUIC sur %s: %v\n", addr, err)
+		var emptyListener *quic.Listener
+		return emptyListener, err
+	}
+	return listener, nil
+}
+
+// TODO: Implémenter les fonctions pour Dial (connexion sortante)
+func Dial(ctx context.Context, addr string) (quic.Connection, error) {
+	tlsConf, err := getTLSConfig(false) // false pour client
+	if err != nil {
+		log.Printf("ERROR: Échec de la génération de la config TLS client: %v\n", err)
+		return nil, err
+	}
+
+	// Configurer QUIC (peut être ajusté)
+	quicConf := &quic.Config{
+		MaxIdleTimeout:  10 * time.Minute,
+		KeepAlivePeriod: 25 * time.Second,
+	}
+
+	udpConn, err := net.ListenUDP("udp", nil) // Laisse le système choisir un port source
+	if err != nil {
+		return nil, err
+	}
+	// Ne pas oublier de fermer udpConn si DialAddr échoue ou quand la connexion QUIC est fermée
+	// quic-go le gère généralement, mais il faut être prudent.
+
+	remoteAddr, err := net.ResolveUDPAddr("udp", addr)
+	if err != nil {
+		udpConn.Close()
+		return nil, err
+	}
+
+	conn, err := quic.Dial(ctx, udpConn, remoteAddr, tlsConf, quicConf)
+	if err != nil {
+		udpConn.Close() // Important de fermer le socket UDP si Dial échoue
+		log.Printf("TRANSPORT: Échec de la connexion QUIC à %s: %v\n", addr, err)
+		return nil, err
+	}
+
+	// Le socket UDP est maintenant géré par la connexion QUIC, ne pas le fermer ici.
+	log.Printf("TRANSPORT: Connexion QUIC établie avec %s (depuis %s)\n", conn.RemoteAddr(), conn.LocalAddr())
+	return conn, nil
+}
+
+var (
+	cachedClientTLS *tls.Config
+	cachedServerTLS *tls.Config
+	tlsGenMutex     sync.Mutex
+)
+
+// getTLSConfig crée une configuration TLS auto-signée pour QUIC (pour test)
+func getTLSConfig(isServer bool) (*tls.Config, error) {
+	tlsGenMutex.Lock()
+	defer tlsGenMutex.Unlock()
+
+	if isServer && cachedServerTLS != nil {
+		return cachedServerTLS, nil
+	}
+	if !isServer && cachedClientTLS != nil {
+		return cachedClientTLS, nil
+	}
+
+	key, err := rsa.GenerateKey(rand.Reader, 2048)
+	if err != nil {
+		return nil, err
+	}
+	template := x509.Certificate{
+		SerialNumber: big.NewInt(1),
+		NotBefore:    time.Now(),
+		NotAfter:     time.Now().Add(365 * 24 * time.Hour),
+		KeyUsage:     x509.KeyUsageKeyEncipherment | x509.KeyUsageDigitalSignature,
+		ExtKeyUsage:  []x509.ExtKeyUsage{x509.ExtKeyUsageServerAuth, x509.ExtKeyUsageClientAuth},
+	}
+	certDER, err := x509.CreateCertificate(rand.Reader, &template, &template, &key.PublicKey, key)
+	if err != nil {
+		return nil, err
+	}
+	keyPEM := pem.EncodeToMemory(&pem.Block{Type: "RSA PRIVATE KEY", Bytes: x509.MarshalPKCS1PrivateKey(key)})
+	certPEM := pem.EncodeToMemory(&pem.Block{Type: "CERTIFICATE", Bytes: certDER})
+	tlsCert, err := tls.X509KeyPair(certPEM, keyPEM)
+	if err != nil {
+		return nil, err
+	}
+
+	config := &tls.Config{
+		Certificates:       []tls.Certificate{tlsCert},
+		NextProtos:         []string{"dqmp-1.0"},
+		InsecureSkipVerify: !isServer, // Accepter auto-signé pour client test
+	}
+
+	if isServer {
+		cachedServerTLS = config
+	} else {
+		cachedClientTLS = config
+	}
+	return config, nil
+}
+
+// TODO: Gérer les frames custom (probablement via des streams dédiés)
+// TODO: Intégrer la configuration MP-QUIC

@@ -1,0 +1,10 @@
+*.log
+*.tmp
+.env
+.gitignore
+go.sum
+LICENSE
+README.md
+.git/
+build/
+bundle/

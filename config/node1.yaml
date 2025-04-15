@@ -1,15 +1,16 @@
+# config/node1.yaml
 network:
-  listen: "127.0.0.1:4242" # Utiliser IP explicite pour éviter ambiguïté localhost
-  multipath: { enabled: false, max_paths: 1 }
-  dht:
-    bootstrap_nodes:
-      - "127.0.0.1:4243" # Pointe vers node2
+  listen: "127.0.0.1:4242" # Adresse DQMP
 logging:
   level: "info"
-
-api: 
+api:
   enabled: true
-  listen: ":8003" # Port d'écoute de l'API
-
+  listen: "127.0.0.1:8003" # Adresse API
 data:
-  directory: "./dqmp_node_data_4242"
+  directory: "./dqmp_node_data_4242" # Assurer répertoire unique
+discovery:
+  # listen_addrs: Utilise les défauts (ex: /ip4/127.0.0.1/tcp/0)
+  bootstrap_peers: [] # Vide pour le premier nœud
+  rendezvous: "dqmp-network-v1.0"
+  identity_path: "dqmp_identity_4242.key" # Assurer identité unique
+  discovery_interval: "1m" # Garder pour le principe, mais inutile sans bootstrap

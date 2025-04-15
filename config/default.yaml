@@ -27,8 +27,8 @@ discovery:
   # listen_addrs: # Utiliser les défauts pour l'instant (ports auto)
   #   - "/ip4/0.0.0.0/tcp/0"
   #   - "/ip4/0.0.0.0/udp/0/quic-v1"
-  # bootstrap_peers: # Utiliser les défauts publics de libp2p
-  #   - "/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59beuWjBeUFzxA43sKyPkTCaxUSYphgcPNMFGkUgu"
+  bootstrap_peers: # Utiliser les défauts publics de libp2p
+    - "/dnsaddr/bootstrap.libp2p.io/p2p/QmcZf59beuWjBeUFzxA43sKyPkTCaxUSYphgcPNMFGkUgu"
   rendezvous: "dqmp-network-v1.0" # Important: doit être le même pour tous les nœuds DQMP
   identity_path: "dqmp_identity.key" # Sera modifié par le code si port détecté
   discovery_interval: "1m"

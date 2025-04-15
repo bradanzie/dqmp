@@ -1,0 +1,20 @@
+# config/node3.yaml
+network:
+  listen: "127.0.0.1:4244" # Nouveau port DQMP
+logging:
+  level: "info"
+api:
+  enabled: true
+  listen: "127.0.0.1:8005" # Nouveau port API
+data:
+  directory: "./dqmp_node_data_4244" # Répertoire unique basé sur port DQMP
+discovery:
+  # listen_addrs: # Utiliser les défauts
+  bootstrap_peers:
+    # Important: Remplacer par les VRAIES adresses libp2p de Node 1 et Node 2 après les avoir démarrés !
+    # Ces adresses sont des exemples, elles changeront à chaque lancement.
+    - "/ip4/127.0.0.1/tcp/55458/p2p/12D3KooWHsKTEXASFfZZdk3AxGEjcvVdKEqv3BevQAzsrC1uz3at" # <-- Adresse TCP de Node 1 (à obtenir des logs de Node 1)
+    - "/ip4/127.0.0.1/tcp/55459/p2p/12D3KooWPucWdeR6KkwLffEu3nSo222nAqCPtHty8NLjPjzmwRwW" # <-- Adresse TCP de Node 2 (à obtenir des logs de Node 2)
+  rendezvous: "dqmp-network-v1.0" # Identique aux autres
+  identity_path: "dqmp_identity_4244.key" # Chemin unique basé sur port DQMP
+  discovery_interval: "1m"

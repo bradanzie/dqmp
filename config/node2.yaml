@@ -1,15 +1,19 @@
+# config/node2.yaml
 network:
-  listen: "127.0.0.1:4243"
-  multipath: { enabled: false, max_paths: 1 }
-  dht:
-    bootstrap_nodes:
-      - "127.0.0.1:4242" # Pointe vers node1
+  listen: "127.0.0.1:4243" # Adresse DQMP
 logging:
   level: "info"
-
-api: 
+api:
   enabled: true
-  listen: ":8004" # Port d'écoute de l'API
-
+  listen: "127.0.0.1:8004" # Adresse API
 data:
-  directory: "./dqmp_node_data_4243"
+  directory: "./dqmp_node_data_4243" # Assurer répertoire unique
+discovery:
+  # listen_addrs: Utilise les défauts (ex: /ip4/127.0.0.1/tcp/0)
+  bootstrap_peers:
+     # <<<<< A REMPLIR APRES AVOIR LANCE NODE 1 >>>>>
+     # Exemple: - "/ip4/127.0.0.1/tcp/XXXXX/p2p/YYYYY"
+    # - "/ip4/10.159.65.221/tcp/53889/p2p/12D3KooWQKUtZajGT8LFQf7CtePQpnFi32xSqbhBCh8y9Mhi4P6C"
+  rendezvous: "dqmp-network-v1.0"
+  identity_path: "dqmp_identity_4243.key" # Assurer identité unique
+  discovery_interval: "1m"

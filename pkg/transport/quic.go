@@ -30,8 +30,9 @@ func Listen(addr string) (*quic.Listener, error) {
 	// Pour l'instant, utilisons une config QUIC par défaut.
 	// Plus tard, nous ajouterons les paramètres MP-QUIC, etc.
 	quicConf := &quic.Config{
-		// MaxIdleTimeout: 30 * time.Second, // Exemple
-		// KeepAlivePeriod: 15 * time.Second, // Exemple
+		MaxIdleTimeout:  10 * time.Minute,
+		KeepAlivePeriod: 25 * time.Second,
+		// EnableMultipath: true,
 	}
 
 	listener, err := quic.ListenAddr(addr, tlsConf, quicConf)
@@ -52,7 +53,11 @@ func Dial(ctx context.Context, addr string) (quic.Connection, error) {
 	}
 
 	// Configurer QUIC (peut être ajusté)
-	quicConf := &quic.Config{}
+	quicConf := &quic.Config{
+		MaxIdleTimeout:  10 * time.Minute,
+		KeepAlivePeriod: 25 * time.Second,
+		// EnableMultipath: true,
+	}
 
 	udpConn, err := net.ListenUDP("udp", nil) // Laisse le système choisir un port source
 	if err != nil {

@@ -83,6 +83,6 @@ func init() {
 	// // Ajouter les autres commandes data à dataCmd
 
 	// Pour l'instant, on les ajoute à la racine pour la simplicité
-	rootCmd.AddCommand(dataGetCmd)
+	dataCmd.AddCommand(dataGetCmd)
 	dataGetCmd.Flags().StringVarP(&outputFile, "output", "o", "", "Fichier où écrire la valeur (défaut: stdout)")
 }

@@ -59,5 +59,5 @@ var dataListCmd = &cobra.Command{
 }
 
 func init() {
-	rootCmd.AddCommand(dataListCmd)
+	dataCmd.AddCommand(dataListCmd)
 }

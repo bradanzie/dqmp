@@ -99,6 +99,6 @@ La valeur peut être fournie en argument ou lue depuis un fichier avec --input.`
 }
 
 func init() {
-	rootCmd.AddCommand(dataPutCmd)
+	dataCmd.AddCommand(dataPutCmd)
 	dataPutCmd.Flags().StringVarP(&inputFile, "input", "i", "", "Fichier contenant la valeur à stocker")
 }
